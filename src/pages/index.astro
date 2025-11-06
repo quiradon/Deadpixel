@@ -1,0 +1,132 @@
+---
+import { Image } from 'astro:assets';
+export const prerender = true;
+import { getLocale } from "astro-i18n-aut";
+import Layout from '@layouts/Layout.astro';
+import { loadT} from '@lib/i18n';
+import { idiomaR } from '@lib/routes';
+import config from '../config.json';
+import { Heart, Gem, Clipboard, Grid3x3, Users, Circle, Layers, CreditCard, Database, User, MessageCircle, Key, Coins, Dices, Tags, BookText, Palette, Package, Info, Crown } from '@lucide/astro';
+
+import image1 from "../assets/img/landing/place.webp";
+import image2 from "../assets/img/landing/dices.webp";
+import imageSheet from "../assets/img/landing/sheets.webp";
+import imageVTT from "../assets/img/landing/vtt2.webp";
+
+const t = loadT(getLocale(Astro.url));
+const langPrefix = idiomaR(t);
+
+const landingHTML = (t.index?.landing?.text ?? '').replace(/\*\*(.*?)\*\*/g, '<span class="text-primary">$1<\/span>');
+const sistemas: Record<string, any> = t.posts?.sistemas ?? {};
+---
+<Layout t={t} title={t.index?.name ?? 'DeadPixel Studio'} desc={t.index?.start?.desc}>
+  <head>
+    <link rel="preload" as="image" href="/img/bg/pattern-square.svg" type="image/svg+xml">
+  </head>
+  <script >
+    // Auto Scroll esse elemento deve estar presente somente na landing page
+    document.querySelectorAll('#auto-scroll').forEach(function(element) {
+      const htmlElement = element as HTMLElement;
+      let isMouseOver = false;
+      let isDragging = false;
+      let startX: number = 0;
+      let scrollLeft: number = 0;
+
+      element.addEventListener('mouseenter', function() {
+        isMouseOver = true;
+      });
+
+      element.addEventListener('mouseleave', function() {
+        isMouseOver = false;
+      });
+
+      element.addEventListener('mousedown', function(e) {
+        const mouseEvent = e as MouseEvent;
+        isDragging = true;
+        startX = mouseEvent.pageX - htmlElement.offsetLeft;
+        scrollLeft = htmlElement.scrollLeft;
+        element.classList.add('active');
+      });
+
+      element.addEventListener('mouseleave', function() {
+        isDragging = false;
+        element.classList.remove('active');
+      });
+
+      element.addEventListener('mouseup', function() {
+        isDragging = false;
+        element.classList.remove('active');
+      });
+
+      element.addEventListener('mousemove', function(e) {
+        if (!isDragging) return;
+        e.preventDefault();
+        const mouseEvent = e as MouseEvent;
+        const x = mouseEvent.pageX - htmlElement.offsetLeft;
+        const walk = (x - startX) * 2; // Multiplique por 2 para aumentar a velocidade de arrasto
+        htmlElement.scrollLeft = scrollLeft - walk;
+      });
+
+      function scrollRight() {
+        if (!isMouseOver) {
+          const card = element.querySelector('.card') as HTMLElement;
+          if (card) {
+            const cardWidth = card.offsetWidth;
+            if (htmlElement.scrollLeft < htmlElement.scrollWidth - htmlElement.clientWidth) {
+              htmlElement.scrollBy({ left: cardWidth, behavior: 'smooth' });
+            } else {
+              htmlElement.scrollTo({ left: 0, behavior: 'smooth' });
+            }
+          }
+        }
+      }
+
+      setInterval(scrollRight, 2000); // Ajuste o intervalo conforme necessário
+    });
+</script>
+  <!-- Hero -->
+  <section id="inicio" class="hero-bg">
+    <div class="container d-lg-flex align-items-lg-center py-4 py-xl-5">
+      <div class="row gy-2 gy-md-0 row-cols-1 row-cols-lg-2 my-3 py-3">
+        <div class="col-auto col-xl-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
+          <div class="mb-5">
+            <h1 class="display-1 fw-bold"><Fragment set:html={landingHTML} /></h1>
+            <p class="text-secondary lead">{t.index?.start?.desc}</p>
+            <a class="btn btn-primary btn-lg mt-1 border-2 px-5 me-1 generic_grow fw-bold" href={config.bot_invite} target="_blank">{t.nav?.add}</a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-xl-6 d-md-flex justify-content-md-center align-items-md-center p-0 m-0">
+            <Image 
+              class="img-fluid generic_grow" 
+              alt="Cool text" 
+              width="600" 
+              height="400" 
+              src={image1} 
+              loading="eager"
+              fetchpriority="high"
+              decoding="sync"
+            />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VTT section -->
+  <section>
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-lg-6 col-xl-6 d-lg-flex align-items-lg-center">
+          <div class="mb-5">
+            <h1 class="display-5 fw-bold mt-0">{t.vtt?.index?.title}</h1>
+            <p class="lead text-secondary">{t.vtt?.index?.desc}</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-xl-6 mb-5">
+          <Image class="img-fluid generic_grow" inferSize={true} alt="Mini Kraken VTT Ilustration" src={imageVTT} />
+        </div>
+      </div>
+    </div>
+  </section>
+  </Layout>
+
+

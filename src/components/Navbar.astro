@@ -1,0 +1,448 @@
+---
+import { idiomaR} from '@lib/routes';
+import { loadT } from '@lib/i18n';
+import config from '../config.json';
+import { getLocale, getAllLocaleUrls } from "astro-i18n-aut";
+import { Shapes, Wrench, Network, Wand, FileText, Book, Package, Fingerprint, Heart, Eye, Briefcase, MessageCircle, Crown, ChevronDown, Menu, X, Globe, Instagram, Twitter, Youtube } from '@lucide/astro';
+import LanguageSelector from './navbar/LanguageSelector.astro';
+import DesktopMenu from './navbar/DesktopMenu.astro';
+import MobileSidebar from './navbar/MobileSidebar.astro';
+import type { MenuSection, MenuItem } from './navbar/MenuTypes';
+
+const locale = getLocale(Astro.url)
+const t = loadT(locale);
+const lang = idiomaR(t);
+const allUrls = getAllLocaleUrls(Astro.url);
+
+
+// Mapeamento de nomes de ícones para componentes Lucide
+const iconMap: Record<string, any> = {
+  'Shapes': Shapes,
+  'Wrench': Wrench,
+  'Network': Network,
+  'Wand': Wand,
+  'FileText': FileText,
+  'Book': Book,
+  'Package': Package,
+  'Fingerprint': Fingerprint,
+  'Heart': Heart,
+  'Eye': Eye,
+  'Briefcase': Briefcase,
+  'MessageCircle': MessageCircle,
+  'Crown': Crown,
+  'ChevronDown': ChevronDown,
+  'Menu': Menu,
+  'X': X,
+  'Globe': Globe,
+  'Instagram': Instagram,
+  'Twitter': Twitter,
+  'Youtube': Youtube
+};
+
+// MENU INSTITUCIONAL
+const institutionalLinks: MenuItem[] = [
+  {
+    title: t.footer?.start || 'Home',
+    description: t.footer?.start || 'Home',
+    href: `${lang}/`,
+    icon: 'Shapes',
+    iconColor: 'text-primary'
+  },
+  {
+    title: t.footer?.games || 'Games',
+    description: t.footer?.games || 'Games',
+    href: `${lang}/games/`,
+    icon: 'Package',
+    iconColor: 'text-primary'
+  },
+  {
+    title: t.footer?.about || 'About',
+    description: t.footer?.about || 'About',
+    href: `${lang}/about/`,
+    icon: 'Briefcase',
+    iconColor: 'text-primary'
+  },
+  {
+    title: t.nav?.support || 'Contact',
+    description: t.nav?.support || 'Contact',
+    href: `${lang}/contact/`,
+    icon: 'MessageCircle',
+    iconColor: 'text-primary'
+  }
+];
+
+// LINKS ADICIONAIS (para mobile sidebar)
+const additionalLinks: MenuItem[] = institutionalLinks;
+
+// LINKS DE REDES SOCIAIS
+const socialLinks: MenuItem[] = [
+  {
+    title: 'Instagram',
+    description: 'Instagram',
+    href: config.instagram_url,
+    icon: 'Instagram',
+    iconColor: 'text-primary',
+    target: '_blank'
+  },
+  {
+    title: 'Twitter',
+    description: 'Twitter',
+    href: config.twitter_url,
+    icon: 'Twitter',
+    iconColor: 'text-primary',
+    target: '_blank'
+  },
+  {
+    title: 'YouTube',
+    description: 'YouTube',
+    href: config.youtube_url,
+    icon: 'Youtube',
+    iconColor: 'text-primary',
+    target: '_blank'
+  }
+];
+
+// Array com todas as seções para facilitar iteração
+const menuSections: MenuSection[] = [];
+---
+
+<style>
+  .navbar {
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid rgba(246, 87, 255, 0.2);
+    backdrop-filter: blur(20px) saturate(180%);
+    background: linear-gradient(180deg, rgba(11,9,16,0.95) 0%, rgba(11,9,16,0.98) 100%);
+    padding: 0.5rem 0;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-brand {
+    font-size: 1.75rem !important;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    letter-spacing: -0.5px;
+  }
+  
+  .navbar-brand span {
+    background: linear-gradient(135deg, #F657FF 0%, #7D01FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .navbar-brand:hover {
+    transform: translateY(-1px);
+  }
+  
+  .navbar-brand:hover span {
+    filter: brightness(1.2);
+  }
+  
+  .logo-icon {
+    transition: transform 0.3s ease;
+    filter: drop-shadow(0 2px 8px rgba(246, 87, 255, 0.3));
+  }
+  
+  .navbar-brand:hover .logo-icon {
+    transform: scale(1.1) rotate(5deg);
+  }
+
+  .nav-link {
+    position: relative;
+    padding: 0.75rem 1.25rem !important;
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.85) !important;
+    transition: all 0.3s ease;
+    letter-spacing: 0.3px;
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #F657FF, #7D01FF);
+    transition: width 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #fff !important;
+  }
+  
+  .nav-link:hover::after {
+    width: 80%;
+  }
+  
+  .nav-link[type="button"] {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .social-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(246, 87, 255, 0.05);
+    border: 1px solid rgba(246, 87, 255, 0.15);
+    color: rgba(246, 87, 255, 0.8);
+    transition: all 0.3s ease;
+    margin: 0 0.25rem;
+  }
+  
+  .social-icon-link:hover {
+    background: linear-gradient(135deg, #F657FF, #7D01FF);
+    border-color: transparent;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(246, 87, 255, 0.3);
+  }
+  
+  .mobile-menu-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border: 1px solid rgba(246, 87, 255, 0.2);
+    background: rgba(246, 87, 255, 0.05);
+    color: var(--bs-primary);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .mobile-menu-toggle:hover {
+    background: rgba(var(--bs-primary-rgb), 0.15);
+    border-color: rgba(246, 87, 255, 0.4);
+    transform: scale(1.05);
+  }
+  
+  .nav-separator {
+    display: block;
+    width: 1px;
+    height: 24px;
+    background: linear-gradient(180deg, transparent, rgba(246, 87, 255, 0.4), transparent);
+    margin: 0 0.75rem;
+  }
+  
+  /* Sticky navbar effect */
+  nav.sticky-top {
+    transition: all 0.3s ease;
+  }
+  
+  nav.scrolled .navbar {
+    background: rgba(11,9,16,0.98);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+  }
+
+  @media (min-width: 992px) {
+    .mobile-menu-toggle {
+      display: none !important;
+    }
+    
+    .navbar-nav {
+      gap: 0.25rem;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .nav-separator {
+      display: none;
+    }
+    
+    .social-icon-link {
+      margin: 0.25rem;
+    }
+  }
+</style>
+
+<script>
+  // JavaScript simplificado para melhor performance no dev mode
+  document.addEventListener('DOMContentLoaded', () => {
+    // Gerenciamento básico do sidebar mobile
+    const sidebarOverlay = document.querySelector('.mobile-sidebar-overlay');
+    const sidebar = document.querySelector('.mobile-sidebar');
+    const openButtons = document.querySelectorAll('.mobile-menu-toggle');
+    const closeButton = document.querySelector('.mobile-sidebar-close');
+
+    function openSidebar() {
+      sidebar?.classList.add('show');
+      sidebarOverlay?.classList.add('show');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeSidebar() {
+      sidebar?.classList.remove('show');
+      sidebarOverlay?.classList.remove('show');
+      document.body.style.overflow = '';
+    }
+
+    // Event listeners
+    openButtons.forEach(button => {
+      button.addEventListener('click', openSidebar);
+    });
+
+    closeButton?.addEventListener('click', closeSidebar);
+    sidebarOverlay?.addEventListener('click', closeSidebar);
+
+    // Fechar com ESC
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeSidebar();
+    });
+
+    // Fechar ao clicar em links
+    sidebar?.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        setTimeout(closeSidebar, 100);
+      });
+    });
+
+    // Efeito de scroll na navbar
+    const nav = document.querySelector('nav.sticky-top');
+    let lastScroll = 0;
+    
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset;
+      
+      if (currentScroll > 50) {
+        nav?.classList.add('scrolled');
+      } else {
+        nav?.classList.remove('scrolled');
+      }
+      
+      lastScroll = currentScroll;
+    });
+
+    // Animações hover simples (apenas desktop)
+    if (window.innerWidth >= 992) {
+      document.querySelectorAll('[data-bss-hover-animate]').forEach((element) => {
+        const htmlElement = element as HTMLElement;
+        const animationClass = htmlElement.dataset.bssHoverAnimate;
+        if (!animationClass) return;
+
+        element.addEventListener('mouseenter', () => {
+          element.classList.add('animated', animationClass);
+        });
+
+        element.addEventListener('mouseleave', () => {
+          element.classList.remove('animated', animationClass);
+        });
+      });
+    }
+  });
+</script>
+
+<nav class="sticky-top">
+  <div class="navbar navbar-expand-lg px-3 px-md-5">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-2 fw-bold d-flex align-items-center gap-2" href={`${lang}/`} aria-label={`DeadPixel - ${t.nav.guide || 'Home'}`}>
+        <img src="/logoDP.svg" alt="DeadPixel Logo" width="40" height="40" class="logo-icon" />
+        <span class="fs-3 fw-bold" style="font-family: Roboto, sans-serif;">DeadPixel</span>
+      </a>
+      
+      <div id="navcol-2" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <!-- Menu Institucional -->
+          {institutionalLinks.map(link => {
+            return (
+              <li class="nav-item">
+                <a 
+                  class="nav-link" 
+                  target={link.target}
+                  href={link.href}
+                  aria-label={link.title}
+                >
+                  {link.title}
+                </a>
+              </li>
+            )
+          })}
+
+          <!-- Separador -->
+          <li class="nav-item">
+            <span class="nav-separator"></span>
+          </li>
+
+          <!-- Redes Sociais -->
+          {socialLinks.map(link => {
+            const LinkIcon = iconMap[link.icon];
+            return (
+              <li class="nav-item">
+                <a 
+                  class="social-icon-link" 
+                  target={link.target}
+                  href={link.href}
+                  aria-label={link.title}
+                  title={link.title}
+                >
+                  <LinkIcon size={18} />
+                </a>
+              </li>
+            )
+          })}
+
+          <LanguageSelector />
+          
+        </ul>
+      </div>
+      
+      <!-- Botão para abrir menu mobile -->
+      <button class="mobile-menu-toggle d-lg-none" aria-label="Abrir menu">
+        <Menu size={24} />
+      </button>
+    </div>
+  </div>
+</nav>
+
+<MobileSidebar 
+  sections={menuSections} 
+  additionalLinks={additionalLinks} 
+  iconMap={iconMap} 
+  t={t}
+  lang_FLAGS={{
+    pt: '/img/flags/br.svg',
+    en: '/img/flags/en.svg',
+    es: '/img/flags/es.svg',
+    de: '/img/flags/de.svg',
+    fr: '/img/flags/fr.svg',
+    zh: '/img/flags/cn.svg',
+    ja: '/img/flags/jp.svg',
+    ru: '/img/flags/ru.svg',
+    ko: '/img/flags/ko.svg',
+    it: '/img/flags/it.svg',
+    pl: '/img/flags/pl.svg',
+    tr: '/img/flags/tr.svg',
+    hu: '/img/flags/hu.svg',
+    id: '/img/flags/id.svg',
+    da: '/img/flags/dk.svg',
+    hr: '/img/flags/hr.svg',
+  }}
+  lang_LABELS={{
+    en: 'English',
+    zh: '中文',
+    es: 'Español',
+    fr: 'Français',
+    de: 'Deutsch',
+    pt: 'Português',
+    ru: 'Русский',
+    ja: '日本語',
+    ko: '한국어',
+    it: 'Italiano',
+    tr: 'Türkçe',
+    pl: 'Polski',
+    hu: 'Magyar',
+    da: 'Danish',
+    hr: 'Croatian',
+    id: 'Indonesian',
+  }}
+  allUrls={allUrls}
+/>

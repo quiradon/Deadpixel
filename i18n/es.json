@@ -1,0 +1,353 @@
+{
+  "PageNotFound": {
+    "btn": "Volver al inicio",
+    "desc": "¡Ups! Parece que has encontrado una página que ya no existe. No te preocupes, a veces esto sucede mientras navegas. Mientras tanto, explora otras partes de nuestro sitio para encontrar lo que buscas.",
+    "title": "Página no encontrada"
+  },
+  "changelogs": {
+    "desc": "Descubre todas las últimas actualizaciones y mejoras de nuestro proyecto a través de nuestra página de registro de cambios. Mantente informado sobre cada nueva versión, correcciones de errores y características añadidas."
+  },
+  "default": {
+    "desc": "Mini Kraken es un sitio web de RPG que ofrece herramientas, artículos y contenido para jugadores y DMs de RPG. Aquí encontrarás información sobre Dungeons and Dragons, Call of Cthulhu, GURPS, FATE, Storytelling y otros sistemas de RPG."
+  },
+  "footer": {
+    "start": "Inicio",
+    "games": "Juegos",
+    "about": "Acerca de",
+    "arkanus": {
+      "desc": "Convirtiendo tus sueños en realidad con varias líneas de código."
+    },
+    "legal": "Legal",
+    "map": "Mapa del sitio",
+    "priv": "Política de privacidad",
+    "quest": "Misión",
+    "start": "Página de inicio",
+    "team": "Equipo",
+    "tos": "Términos de uso",
+    "util": "Utilidad"
+  },
+  "index": {
+    "donate": {
+      "btn": "Apoyar el proyecto"
+    },
+    "features": {
+      "desc": "Mini Kraken es un bot para Discord que ofrece una amplia variedad de funciones para ayudarte en tu viaje de RPG de mesa. Tira dados, gestiona iniciativas, crea personajes, utiliza generadores de nombres y mucho más. ¡Echa un vistazo a una pequeña muestra de todo lo que Mini Kraken puede hacer por ti!",
+      "title": "Explora las funciones"
+    },
+    "func": {
+      "card": {
+        "0": {
+          "desc": "No pierdas tiempo calculando manualmente la salud de tu personaje. Con el comando /edit life, Mini Kraken hace los cálculos por ti, permitiéndote concentrarte en jugar.",
+          "title": "Cálculo de vida"
+        },
+        "1": {
+          "desc": "El Bot tiene un sistema avanzado de tirada de dados, que permite diferentes combinaciones con el comando /d. Además de múltiples skins de datos a las que se puede acceder con la tienda /data",
+          "title": "Tirada de dados"
+        },
+        "2": {
+          "desc": "Organiza fácilmente la información de los personajes con Smart Tokens. Con comandos sencillos, con /ficha puedes crear y editar hojas de personaje, haciendo tu mesa más ágil y eficiente.",
+          "title": "Hojas inteligentes"
+        },
+        "3": {
+          "desc": "Selecciona uno de los varios sistemas de RPG disponibles para personalizar aún más tu campaña, y si eso no es suficiente, crea tu propio sistema.",
+          "title": "Personalización"
+        },
+        "4": {
+          "desc": "Encuentra jugadores para tu mesa de RPG fácilmente usando el sistema de Divulgación de Campaña de Fortune. Con el comando /send campaign, ¡no pierdas más tiempo buscando jugadores, deja que Fortuna te ayude!",
+          "title": "Encontrar jugadores"
+        },
+        "5": {
+          "desc": "Variedad de generadores de nombres y letras para ayudar con la creación de personajes. Con los comandos /generate name y /deck, puedes generar nombres aleatorios, cartas de tarot o mazos para enriquecer tu narrativa.",
+          "title": "Generadores"
+        },
+        "6": {
+          "desc": "Un amplio sistema de Economía llamado KC (Kraken Coins) que se puede obtener de diferentes maneras, útil para funciones como skins de datos y personalizaciones.",
+          "title": "Economía"
+        },
+        "7": {
+          "desc": "¡Encuentra los hechizos y rituales en tu libro de conjuros más fácilmente con nuestro libro de conjuros que te permite buscar en tiempo real!",
+          "title": "Libro de hechizos"
+        },
+        "8": {
+          "desc": "Esta función aún está por llegar, pero se rumorea que será un bestiario comunitario.",
+          "title": "..."
+        }
+      }
+    },
+    "landing": {
+      "text": "La mejor manera de jugar **RPG de mesa** en Discord"
+    },
+    "name": "Bot de RPG de mesa",
+    "sec2": {
+      "desc": "El Bot para Discord, desarrollado por fans para fans, tiene como objetivo ayudar en la experiencia de juego de tu RPG favorito. No poseemos ni reclamamos derechos sobre los juegos mencionados. Somos un grupo de programadores y entusiastas que simplifican los sistemas de RPG para hacer la experiencia más agradable. Este no es un producto o plataforma oficial, y no estamos afiliados a los creadores de los juegos mencionados"
+    },
+    "start": {
+      "btn1": "Añadir a Fortuna",
+      "desc": "¡Eleva tu experiencia de RPG de mesa en Discord! Nuestra herramienta diseñada para mejorar tus sesiones de juego, ya sea en sistemas con más roleplay y menos matemáticas."
+    },
+    "status": {
+      "desc": "Consulta algunos datos de rendimiento de Inanimalia Fortuna Tenebris Verteri, el mejor bot de RPG de mesa para Discord en opinión de los creadores. Mantente al día sobre el rendimiento de tu bot y aprovecha al máximo tu experiencia.",
+      "guilds": "Gremios",
+      "subtitle": "Hay tantos dados...",
+      "title": "Estadísticas del proyecto.",
+      "user": "Usuarios",
+      "version": "Versión"
+    }
+  },
+  "join_server_btn": "Unirse al gremio oficial",
+  "lang": "es",
+  "misc": {
+    "btn": {
+      "gencard": "Generar tarjeta"
+    },
+    "gen": {
+      "all": "Todos los nombres",
+      "fem": "Femenino",
+      "male": "Masculino"
+    }
+  },
+  "morse": {
+    "markdown": "# Crea y Gestiona Audio en Código Morse para RPG\n\nDale un toque auténtico y misterioso a tus sesiones con **audio en código Morse para RPG**. Esta herramienta innovadora permite crear mensajes codificados que desafían a los jugadores a pensar fuera de la caja, reforzando la inmersión y la atmósfera de investigación en tus juegos de mesa.\n\n## ¿Qué es Código Morse?\n\nEl **código Morse** es un sistema de codificación desarrollado en el siglo XIX por Samuel Morse y Alfred Vail. Convierte letras y números en una serie de señales cortas y largas —los famosos \"puntos\" y \"guiones\"— que pueden ser transmitidos por sonido, luz o pulsos eléctricos.\n\nCreado originalmente para la comunicación telegráfica a distancia, el código Morse fue vital para transmisiones militares, marítimas y de emergencia a lo largo del tiempo. A pesar de que su uso ha disminuido con la modernización de las comunicaciones, permanece como un símbolo clásico de mensajes secretos y criptografiados.\n\n## Aplicaciones del Código Morse en el RPG de Mesa\n\nEn juegos de RPG, el código Morse es un recurso creativo para introducir **mensajes secretos para RPG**, enigmas, o incluso comunicaciones misteriosas entre personajes. Se puede usar de diversas formas:\n\n- Como parte de un **enigma sonoro para RPG**, en el que los jugadores deben traducir el sonido para descubrir una pista.\n- En pistas de fondo con transmisiones intermitentes que aumentan el clima de tensión.\n- Como método de comunicación entre PNJs, provocando sospechas o revelaciones.\n\n## Genera Mensajes Secretos con Facilidad\n\nCon nuestra herramienta de **audio cifrado para RPG**, puedes transformar cualquier frase en una secuencia sonora realista en código Morse. Ideal para narrativas de investigación, horror, o ciencia ficción, esta función ayuda a los maestros a crear desafíos auditivos cautivadores para sus jugadores.\n\n## Inmersión a Través del Sonido\n\nAl integrar **audio en código Morse para RPG** a tus sesiones, ofreces a los jugadores una nueva capa de inmersión. El sonido genuino y configurable (en tono y velocidad) contribuye a un ambiente de juego más dinámico y sensorial, estimulando el razonamiento y la colaboración entre los participantes.\n\n## Personaliza para tu Enigma Sonoro\n\nCada elemento del mensaje puede ser ajustado para combinar con el estilo de la aventura. Si tu campaña involucra espionaje, tecnología retro o sociedades secretas, el **código Morse en juegos narrativos** se adapta perfectamente al tono deseado.\n\n## Compatible con Diversos Sistemas de RPG\n\nNuestra herramienta es flexible y puede ser usada con cualquier sistema de juego. Desde D&D hasta narrativas independientes, el **audio en código Morse para RPG** añade profundidad e innovación a tus creaciones, ya sea en campañas largas o en one-shots.\n"
+  },
+  "names": {
+    "article": {
+      "all": "Todos",
+      "btn": "Generar nombres",
+      "desc": "Este generador de nombres de personajes fue creado para ser un punto de partida para ti, ayudándote a escribir un libro, una campaña de RPG o un juego. Si estás buscando nombres para tus personajes, estás en el lugar correcto.",
+      "female": "Femenino",
+      "male": "Masculino",
+      "seo": "Generador de nombres para personajes de libros, juegos de rol y videojuegos. Encuentra el nombre perfecto para tu creación.",
+      "title": "Generador de nombres"
+    },
+    "loading": "Generando Nombres...",
+    "null": {
+      "desc": "Haz clic en el botón de arriba para generar nombres aleatorios.",
+      "title": "Aún no se ha generado ningún nombre."
+    }
+  },
+  "nav": {
+    "acervo": "Colección",
+    "add": "Añadir aplicación",
+    "docs": {
+      "changelogs": {
+        "desc": "Ver el historial de actualizaciones del bot",
+        "name": "Registro de cambios"
+      },
+      "title": "Documentación"
+    },
+    "donate": "Apoyar el proyecto",
+    "guide": "Guía",
+    "lang": {
+      "title": "Idioma"
+    },
+    "support": "Comunidad",
+    "vtt": {
+      "desc": "Administrar Tokens y Mapas",
+      "title": "Mesa virtual"
+    }
+  },
+  "new": "Nuevo",
+  "poker": {
+    "article": {
+      "desc": "Un generador de cartas de juego aleatorio, que de alguna manera puede ayudar a crear una campaña o juego.",
+      "title": "Generador de cartas de póker"
+    },
+    "cards": {
+      "type": {
+        "0": "Todos los palos de cartas",
+        "1": "Picas",
+        "2": "Tréboles",
+        "3": "Corazones",
+        "4": "Diamantes"
+      }
+    },
+    "desc": "Genera cartas de juego aleatorias para tus campañas o juegos de rol. Mejora tu narrativa con el Generador de Cartas de Póker.",
+    "title": "Cartas de póker"
+  },
+  "posts": {
+    "sistemas": {
+      "0": {
+        "bg": "/img/bg/dnd.webp",
+        "card": {
+          "desc": "Un legendario RPG de fantasía que permite a los jugadores crear sus propias historias en mundos de espada y brujería.",
+          "title": "Dungeons & Dragons"
+        },
+        "icon": "/img/rpg/DND.svg",
+        "legal": "El sistema Dungeons & Dragons pertenece actualmente a [Wizards Of The Coast](https://company.wizards.com/en) que tiene todos sus derechos reservados.Los libros del sistema fueron publicados bajo la licencia [OPEN GAME LICENSE Versión 1.1](https://en.wikipedia.org/wiki/Open_Game_License) Mini Kraken no tiene ningún vínculo con la editorial o el creador, Mini Kraken es solo un conjunto de herramientas hechas para ayudar a masters y jugadores de diferentes sistemas. de la misma manera que no tenemos su autorización para operar.",
+        "md": "**Dungeons & Dragons** (D&D) es uno de los juegos de rol de mesa más renombrados del mundo, ofreciendo aventuras épicas y mundos de fantasía repletos de criaturas místicas, héroes valientes y villanos amenazadores. Para muchos, D&D es la experiencia definitiva de rol, donde cada sesión de juego se convierte en una historia única, construida colectivamente por los jugadores y el director de juego.\n\n## ¿Qué es un Juego de Rol de Mesa?\n\nUn **juego de rol de mesa** (RPG, por sus siglas en inglés) es un tipo de juego en el que los jugadores asumen los roles de personajes ficticios y crean historias colectivas basadas en reglas predefinidas. A diferencia de los juegos digitales, los juegos de rol de mesa se juegan principalmente a través de la interacción verbal y la imaginación, donde los jugadores toman decisiones, interactúan con el entorno y enfrentan desafíos mientras el director de juego narra los acontecimientos.\n\nEl objetivo de un juego de rol de mesa no es ganar, sino crear una historia envolvente donde los personajes evolucionan con las decisiones de los jugadores, que, a su vez, influyen en el desarrollo de la trama. El director de juego (o Dungeon Master en D&D) es el responsable de crear el mundo, describir el escenario e interpretar a los PNJs (personajes no jugadores), guiando a los jugadores a través de la aventura.\n\n## El Escenario de Dungeons & Dragons\n\nEn Dungeons & Dragons, los jugadores exploran **mundos de fantasía** repletos de mitos, magia y misterios. Las historias tienen lugar en escenarios vastos y diversos, que pueden incluir mazmorras antiguas, bosques misteriosos, reinos medievales e incluso planos cósmicos. Cada escenario es único, con sus propias reglas, facciones, criaturas e historias que se entrelazan con las acciones de los personajes.\n\nD&D es un juego de **alta fantasía**, lo que significa que se desarrolla en un mundo donde la magia es una parte natural del entorno. Magos, guerreros, elfos, dragones y monstruos legendarios son solo algunos de los elementos que encontrarás al jugar. El universo de D&D es vasto, y cada juego puede llevar a los jugadores a explorar nuevos reinos, enfrentar desafíos o buscar artefactos mágicos en misiones épicas.\n\n## Las Clases en Dungeons & Dragons\n\nUna de las partes más emocionantes de Dungeons & Dragons es la creación del **personaje**. Cada jugador elige una **clase** que define las habilidades y el rol que desempeña en la aventura. Entre las clases más populares de D&D, tenemos:\n\n-   **Guerrero**: Combatiente habilidoso que se especializa en luchar con armas y armaduras.\n-   **Mago**: Maestro de las artes arcanas, capaz de lanzar poderosos hechizos y controlar la magia.\n-   **Ladrón**: Especialista en sigilo y habilidades de robo, perfecto para explorar mazmorras y resolver acertijos.\n-   **Clérigo**: Ser divino, capaz de curar heridas e invocar poderes divinos para ayudar a los aliados y enfrentar a los enemigos.\n-   **Arquero**: Experto en combate a distancia, utilizando arcos y flechas con gran destreza.\n-   **Bárbaro**: Guerrero feroz con inmensa fuerza física, a menudo impulsado por la furia en combate.\n\nEstas son solo algunas de las clases disponibles. Cada una de ellas ofrece una experiencia única, con habilidades y características propias que impactan directamente en la forma de jugar.\n\n## Dungeons & Dragons en Discord: ¿Cómo Funciona?\n\nLa experiencia de jugar **Dungeons & Dragons** en **Discord** puede ser tan envolvente como jugar en una mesa física. Discord ofrece una plataforma interactiva que permite a los jugadores comunicarse por voz, texto e incluso video, creando un entorno perfecto para aventuras de D&D.\n\nPara jugar D&D en Discord, es necesario utilizar herramientas adicionales para facilitar el proceso. Esto puede incluir bots que automatizan tareas como la tirada de dados o la gestión de hojas de personajes, ahorrando tiempo y manteniendo el enfoque en la narrativa y la acción.\n\n## ¿Cómo Jugar D&D en Discord?\n\nPara comenzar a jugar Dungeons & Dragons en Discord, necesitas configurar tu servidor con las herramientas adecuadas. Existen bots como **Mini Kraken**, que ayudan a automatizar la tirada de dados y la gestión de las hojas de personajes. Esto hace que el juego sea más ágil y permite que todos los jugadores se concentren más en sus acciones y en la historia, sin preocuparse por cálculos o reglas complejas.\n\n### Consejos para Maximizar tu Experiencia de Juego\n\nAdemás de las herramientas, la organización del servidor en Discord también es esencial. Crear canales separados para diferentes aspectos del juego, como combate, rol o exploración, puede ayudar a mantener la sesión más fluida y organizada.\n\nOtro punto importante es la colaboración con otros jugadores. Discord facilita la comunicación en tiempo real, permitiendo que todos los jugadores se involucren de manera activa en las decisiones de la historia. Además, la plataforma te permite conectarte con otros fanáticos de D&D e intercambiar experiencias, consejos e incluso crear grupos de juego.\n\n## Conclusión: La Magia de Dungeons & Dragons en Discord\n\nDungeons & Dragons es una experiencia rica e inmersiva, y Discord ofrece la plataforma ideal para explorar este mundo de fantasía con amigos, incluso a distancia. Al utilizar las herramientas adecuadas y organizar bien tus sesiones, podrás crear aventuras épicas llenas de magia, misterio y emoción.\n\nSi estás listo para embarcarte en un viaje de D&D, Discord es el lugar perfecto para reunir a tus amigos y crear historias inolvidables. Con un poco de preparación y organización, estarás listo para explorar mazmorras, conquistar reinos y enfrentar monstruos increíbles, todo sin salir de casa.\n\n[Aprende más sobre Mini Kraken y cómo puede mejorar tu experiencia de juego.](https://rpg.arkanus.app/)",
+        "path": "dnd",
+        "tags": "Sistema RPG,Fantasía,Medieval,Dungeons & Dragons"
+      },
+      "1": {
+        "article": "Orden Paranormal es un nuevo juego de rol de mesa que transporta a los jugadores a un mundo lleno de misterios y fenómenos sobrenaturales. En este entorno oscuro y fascinante, secretos ocultos y entidades malignas amenazan a la humanidad, y solo los valientes agentes de la Orden Paranormal pueden enfrentar estas amenazas.En el juego, los jugadores asumen el papel de agentes paranormales, miembros de una organización secreta dedicada a proteger al mundo de los peligros de lo desconocido. Cada agente tiene habilidades especiales, como la clarividencia, el control de la energía, la mediumnidad y la percepción aguda, que les ayudan a enfrentar los desafíos sobrenaturales que encuentran en su camino.A medida que los jugadores avanzan en las misiones, sus personajes ganan experiencia y desarrollan nuevas habilidades paranormales, volviéndose más competentes para enfrentar lo sobrenatural. La evolución del personaje permite a los jugadores personalizar sus habilidades de acuerdo con su estilo de juego y prepararse para desafíos aún mayores.Orden Paranormal ofrece una experiencia emocionante e inmersiva para los fanáticos de los RPG de mesa y los amantes de las historias sobrenaturales. Con su trama atractiva y su mecánica cautivadora, el juego promete transportar a los jugadores a un mundo de suspenso y misterio, donde tendrán que usar su inteligencia y coraje para proteger a la humanidad de fuerzas más allá.Prepárate para enfrentar lo desconocido y descubrir oscuros secretos mientras juegas a Orden Paranormal. Reúne a tus amigos, elige tus habilidades paranormales y embárcate en esta emocionante aventura donde la línea entre lo real y lo sobrenatural se difumina. ¡El destino del mundo paranormal está en tus manos!",
+        "bg": "/img/bg/ordem.webp",
+        "card": {
+          "desc": "Un universo de investigación paranormal, donde los agentes luchan contra lo sobrenatural y protegen nuestra realidad.",
+          "title": "Orden Paranormal"
+        },
+        "icon": "/img/rpg/Ordem.svg",
+        "legal": "Orden Paranormal fue creado por Rafael Lange \"Cellbit\" Lange y actualmente es publicado por [Editora Jambo](https://jamboeditora.com.br/) que tiene todos sus derechos reservados.Los libros del sistema fueron publicados bajo la licencia[OPEN GAME LICENSE Versión](https://en.wikipedia.org/wiki/Open_Game_License) 1.0a Mini Kraken no tiene ningún vínculo con la editorial o el creador, Mini Kraken es solo un conjunto de herramientas hechas para ayudar a masters y jugadores de diferentes sistemas. de la misma manera que no tenemos su autorización para operar.",
+        "md": "## Desentrañando el Sistema de RPG Orden Paranormal: Un Viaje a lo Sobrenatural\n\nEl universo de los juegos de **rol (RPG)** es vasto y envolvente, permitiendo que los jugadores participen en historias interactivas donde sus elecciones moldean el desarrollo de los eventos. Dentro de este género, **Orden Paranormal** destaca por su ambientación moderna y oscura, enfocada en misterios, investigaciones y confrontaciones con lo sobrenatural.\n\n## ¿Qué es un Juego de Rol?\n\nEl **juego de rol (Role-Playing Game)** es un juego cooperativo donde los participantes interpretan personajes dentro de una narrativa guiada por un maestro. Las decisiones de los jugadores influyen directamente en el desarrollo de la historia, utilizando reglas y mecánicas específicas para definir éxitos o fracasos. La experiencia es inmersiva, combinando interpretación, estrategia y creatividad.\n\n## ¿Qué es Orden Paranormal?\n\n**Orden Paranormal** es un juego de rol ambientado en el mundo contemporáneo, donde eventos sobrenaturales amenazan la realidad y necesitan ser investigados y combatidos. Los jugadores asumen el papel de agentes de la **Ordo Realitas**, una organización secreta dedicada a enfrentar estas amenazas antes de que se conviertan en catástrofes irreversibles. El sistema mezcla horror, investigación y acción, desafiando a los jugadores a sobrevivir y desentrañar secretos ocultos.\n\n## La Membrana y lo Sobrenatural\n\nLa realidad en **Orden Paranormal** está protegida por una barrera invisible llamada **Membrana**, que separa el mundo físico del sobrenatural. Cuando esta barrera se debilita, ocurren distorsiones, posesiones y manifestaciones de entidades desconocidas. Los agentes de la Ordo Realitas necesitan identificar las fallas en la Membrana e impedir que el caos se propague.\n\n## Mecánicas y Clases de Personaje\n\nEl sistema de **Orden Paranormal** ofrece diferentes clases para que los jugadores creen sus personajes, cada una con habilidades específicas:\n\n- **Combatiente**: Experto en combate y protección, enfrenta directamente las amenazas paranormales.\n- **Especialista**: Maestro en tecnología e investigación, esencial para el análisis de pistas y el uso de equipos.\n- **Ocultista**: Capaz de interactuar con lo sobrenatural, utilizando poderes místicos para ayudar o defenderse.\n\nCada clase tiene líneas de especialización que permiten personalizar aún más las habilidades del personaje, haciendo la experiencia rica y diversificada.\n\n## Herramientas Digitales: El Apoyo de Mini Kraken\n\nPara hacer la jugabilidad más fluida, especialmente en sesiones online, herramientas como **Mini Kraken** pueden ser grandes aliadas. Este bot facilita la tirada de dados y la organización de fichas dentro de plataformas como Discord, permitiendo que maestros y jugadores se enfoquen en la narrativa sin preocuparse por cálculos manuales o anotaciones dispersas.\n\n## Consejos para una Experiencia Más Inmersiva\n\n- **Crea un Personaje Profundo**: Desarrolla un pasado y motivaciones que hagan la experiencia más envolvente.\n- **Usa el Miedo a Tu Favor**: Orden Paranormal es un juego de horror investigativo, y el miedo forma parte de la experiencia. No tengas miedo de dejar que tu personaje sienta el peso de la atmósfera.\n- **El Trabajo en Equipo es Fundamental**: Cada clase tiene un papel esencial. Cooperar y compartir información puede ser la clave para sobrevivir a las amenazas más allá de la Membrana.\n",
+        "path": "ordem",
+        "tags": "Sistema RPG,Urbano,Paranormal,Investigación"
+      },
+      "2": {
+        "article": "Tormenta20, el aclamado juego de rol de mesa, está de vuelta con una nueva edición que promete sumergir a los jugadores en un mundo de fantasía épica lleno de emociones. Desde su lanzamiento original, Tormenta ha capturado la imaginación de los fanáticos de los RPG con sus historias cautivadoras, personajes llamativos y reglas dinámicas.En la nueva edición, Tormenta20 continúa explorando el vasto continente de Arton, un entorno rico y vibrante con una mitología única. Los jugadores tienen la libertad de crear sus propios héroes, eligiendo entre una amplia variedad de razas y clases, desde guerreros honorables hasta poderosos magos y astutos pícaros.La mecánica del juego se basa en un sistema de reglas actualizado que combina simplicidad y profundidad estratégica. Los jugadores enfrentan desafíos emocionantes, resuelven acertijos intrigantes y luchan contra criaturas peligrosas en batallas tácticas. La progresión del personaje les permite adquirir habilidades y poderes especiales, convirtiéndose en verdaderos héroes legendarios.Con su legado perdurable y su dedicada base de fans, Tormenta20 continúa cautivando a jugadores de todas las edades y niveles de experiencia. Ya seas un veterano de los juegos de rol o un principiante en busca de una gran aventura, Tormenta20 ofrece una puerta de entrada a un mundo fantástico lleno de héroes, magia y peligros inminentes.Así que prepárate para embarcarte en un viaje inolvidable con Tormenta20. Elige tu raza, forja tu destino y enfrenta desafíos épicos en un mundo de fantasía que espera tu coraje. Reúne a tus amigos, consigue tus datos y embárcate en esta emocionante aventura. ¡El destino de Arton está en tus manos!",
+        "bg": "/img/bg/space.webp",
+        "card": {
+          "desc": "Un RPG de fantasía épica ambientado en el mundo de Arton, con reglas intuitivas y flexibles",
+          "title": "Tormenta20"
+        },
+        "icon": "/img/rpg/Tormenta.svg",
+        "legal": "Tormenta está siendo publicado actualmente por [Editora Jambo](https://jamboeditora.com.br/) que tiene todos sus derechos reservados.Los libros del sistema fueron publicados bajo la licencia[OPEN GAME LICENSE Versión](https://en.wikipedia.org/wiki/Open_Game_License) 1.0a Mini Kraken no tiene ningún vínculo con la editorial o el creador, Mini Kraken es solo un conjunto de herramientas hechas para ayudar a masters y jugadores de diferentes sistemas. de la misma manera que no tenemos su autorización para operar.",
+        "path": "tormenta",
+        "tags": "Sistema RPG, Medieval, Fantasía"
+      },
+      "3": {
+        "article": "Carbon 2185 es un juego de rol de mesa ambientado en un futuro distópico y cyberpunk. En el año 2185, la Tierra está en ruinas debido al cambio climático y la guerra. Poderosas megacorporaciones controlan la sociedad y la tecnología avanzada es omnipresente. Los jugadores asumen el papel de \"Operativos\", individuos altamente capacitados que emprenden misiones para combatir la injusticia y descubrir los oscuros secretos del mundo.Personalización de personajes: Los jugadores pueden elegir entre diferentes arquetipos, como hackers, mercenarios, espías o luchadores cuerpo a cuerpo, cada uno con habilidades únicas.Desarrollo de habilidades: A lo largo del juego, los jugadores pueden mejorar las capacidades cibernéticas de sus personajes y adquirir armas futuristas.Toma de decisiones: Las elecciones de los jugadores influyen en la dirección de la narrativa, lo que les permite moldear el destino del mundo dentro del juego.Sistema de tirada de dados: El juego utiliza tiradas de dados y atributos para determinar el éxito de las acciones y los combates.",
+        "bg": "/img/bg/cyberpunk.webp",
+        "card": {
+          "desc": "Un RPG cyberpunk ambientado en un futuro distópico, influenciado por Blade Runner y Ghost in the Shell.",
+          "title": "Carbon2185"
+        },
+        "icon": "/img/rpg/Carbon.svg",
+        "legal": "El sistema Carbon 2185 fue creado por Robert Marriner-Dodds y actualmente es publicado por [Dragon Turtle Games](https://www.dragonturtlegames.com) que tiene todos sus derechos reservados. Los libros del sistema fueron publicados bajo la licencia [OPEN GAME LICENSE Versión](https://en.wikipedia.org/wiki/Open_Game_License#Open_Game_License) 1.0a Mini Kraken tiene el consentimiento explícito del creador del sistema.",
+        "path": "carbon",
+        "tags": "Sistema RPG,Cyberpunk,Distopía,#BoloQueimado"
+      },
+      "4": {
+        "article": "Gaia: The Prelude es la nueva reimaginación moderna del juego de rol de mesa, que trae un entorno de alta fantasía medieval al mundo mágico de Auroria. En Gaia serás único, caminando por un camino forjado por ti mismo, desbloqueando los cerrojos del Velo hacia el infinito.En Gaia, puedes ser lo que quieras. Hay veintiuna Legados que definen la apariencia de tu personaje, además de un sistema de combate híbrido totalmente personalizado. Crea tu personalidad a tu manera: ¿Un guerrero que destruye ejércitos, pero que estudia los secretos del Velo en su tiempo libre?Separa lo que mejor haces dentro y fuera del combate como desees.Durante tu aventura, desbloquea el Velo dentro de ti enfrentándote a criaturas únicas del Homuncularium, un sistema único de creación de monstruos, ¡con miles de millones (literalmente) de combinaciones posibles! Y, por supuesto, serás recompensado por esto, con Puntos de Aprendizaje que te harán adquirir nuevos poderes, nuevas habilidades, en los Caminos de Combate.Los Caminos de Combate te permiten moldear a tu personaje a tu manera, lo que significa que un personaje no necesita seguir solo un Camino, sino más bien elegir su propio camino.Hay cinco Caminos Básicos iniciales que contienen docenas de habilidades para elegir, y cada habilidad también se puede mejorar con una de las tres opciones de Mejora. Y en el futuro, cuando evoluciones a tu personaje, podrás acceder a los Caminos Avanzados que traen cientos de nuevas habilidades que mejoran aún más tu experiencia.",
+        "bg": "/img/bg/Forest9.webp",
+        "card": {
+          "desc": "RPG de alta fantasía medieval, con un sistema moderno y simplificado, donde cada personaje es único.",
+          "title": "Gaia: The Prelude"
+        },
+        "icon": "/img/rpg/Gaia.svg",
+        "legal": "Gaia: The Prelude es desarrollado por Auroria - Game Studio, que tiene todos sus derechos reservados.Los libros del sistema fueron publicados bajo la licencia [OPEN GAME LICENSE](https://en.wikipedia.org/wiki/Open_Game_License#Open_Game_License) Versión 1.0a, y están protegidos por la CBL (Cámara Brasileña del Libro)Mini Kraken tiene el conocimiento y la autorización del autor Lyy para operar, además te recomendamos que compres el libro y apoyes su proyecto de financiación en [CATARSE](https://www.catarse.me/gaiapreludio)",
+        "path": "gaia",
+        "tags": "Sistema RPG,Medieval,Fantasía,Innovación"
+      },
+      "5": {
+        "article": "3DeT Victory: El nuevo sistema de RPG que está capturando la imaginación de los jugadores Desde su creación, miles de aventureros se han aventurado en escenarios ilimitados, creando personajes únicos y explorando mundos fantásticos. Ahora, con la llegada de la Era de las Arcas, puedes sumergirte en una fantasía urbana llena de laberintos dimensionales, cada uno con sus propios peligros y tesoros. Elige entre los cinco núcleos temáticos y prepárate para un viaje épico. El Manual de 3DeT Victory, que contiene reglas completas, el escenario de la Era de las Arcas y avances de los núcleos temáticos, está en crowdfunding en Catarse. ¡Únete a esta nueva era y sé parte de esta emocionante aventura!3DeT Victory ofrece una serie de mecánicas innovadoras que hacen que la experiencia de juego sea emocionante e inmersiva. Estas son algunas de las principales características y ventajas del sistema:Simplicidad y Flexibilidad: El sistema fue diseñado para ser accesible a jugadores de todos los niveles de experiencia. Las reglas son intuitivas y fáciles de aprender, lo que te permite sumergirte rápidamente en la acción. Además, la flexibilidad del sistema te permite adaptar la mecánica según sea necesario para adaptarse a tu estilo de juego.Enfoque en la Narrativa: 3DeT Victory pone la narrativa en el centro del juego. La mecánica fomenta la creación de historias cautivadoras, con espacio para la improvisación y la creatividad. Los jugadores pueden dar forma al mundo, desarrollar personajes complejos y explorar tramas intrigantes.Núcleos Temáticos: Los cinco núcleos temáticos ofrecen variedad y profundidad al sistema. Cada núcleo presenta reglas específicas, personajes únicos y desafíos distintos. Ya seas un aventurero espacial, un agente secreto o un héroe de fantasía, hay un núcleo para todos.Era de las Arcas: El escenario de la Era de las Arcas es una fusión de elementos fantásticos y urbanos. Los laberintos dimensionales llamados Arcas están llenos de misterios, criaturas extrañas y tesoros ocultos. Este escenario ofrece infinitas posibilidades de exploración y aventura.Manual Completo: El Manual de 3DeT Victory es una fuente completa de información. Además de las reglas básicas, presenta detalles sobre la Era de las Arcas, consejos para el master, sugerencias de aventuras y avances de los núcleos temáticos. Es una guía esencial tanto para jugadores como para GMs.En resumen, 3DeT Victory combina simplicidad, creatividad y un entorno rico para proporcionar una experiencia de RPG única. ¡Únete a la comunidad y descubre un mundo de posibilidades!",
+        "bg": "/img/bg/Forest7.webp",
+        "card": {
+          "desc": "Héroes y villanos chocan en batallas épicas. Magia, tecnología y criaturas fantásticas colisionan.",
+          "title": "3DET Victory"
+        },
+        "icon": "/img/rpg/3DET.svg",
+        "legal": "3DET está siendo publicado actualmente por [Editora Jambo](https://jamboeditora.com.br/) que tiene todos sus derechos reservados.Los libros del sistema fueron publicados bajo la licencia[OPEN GAME LICENSE Versión](https://en.wikipedia.org/wiki/Open_Game_License) 1.0a Mini Kraken no tiene ningún vínculo con la editorial o el creador, Mini Kraken es solo un conjunto de herramientas hechas para ayudar a masters y jugadores de diferentes sistemas. de la misma manera que no tenemos su autorización para operar.",
+        "path": "3det",
+        "tags": "Sistema RPG,GURPS2"
+      },
+      "6": {
+        "article": "Pathfinder es un juego de rol de mesa que cautiva la imaginación con su rica narrativa y complejidad táctica. En Pathfinder, cada jugador crea un personaje único, eligiendo entre una variedad de razas y clases, cada una con sus propias habilidades especiales e historias de fondo. Los jugadores se embarcan en aventuras épicas, enfrentando desafíos que requieren tanto astucia como fuerza bruta. El juego se rige por un conjunto de reglas que ayudan a dar forma al mundo y a las interacciones de los personajes con él, pero la verdadera magia de Pathfinder radica en la libertad que tienen los jugadores para dar forma a sus propias historias.Como juego de rol, Pathfinder permite una colaboración creativa sin precedentes entre los jugadores y el Game Master, quien actúa como narrador y árbitro de las reglas. Juntos, construyen una historia dinámica que puede cambiar según las decisiones de los jugadores y las tiradas de dados. Este aspecto del juego anima a los jugadores a profundizar en sus personajes y en el mundo que les rodea, creando una experiencia inmersiva y personal.Además, Pathfinder es conocido por su sistema de personalización detallado, donde los jugadores pueden modificar sus personajes con una amplia gama de habilidades, hechizos y equipo. Esto permite que cada personaje se vuelva verdaderamente único, reflejando las elecciones y el estilo de juego del jugador. Con cada sesión, los personajes crecen en poder y complejidad, enfrentando amenazas cada vez mayores y descubriendo misterios que podrían cambiar el mundo del juego.El mundo de Pathfinder es un lugar de maravilla y peligro, habitado por criaturas míticas y pueblos diversos. Desde las profundidades de las mazmorras más oscuras hasta los picos de las montañas más altas, los héroes de Pathfinder exploran territorios desconocidos, descubren civilizaciones antiguas y luchan contra las fuerzas del mal. Con cada aventura, tienen la oportunidad de adquirir tesoros legendarios y forjar su propio destino.En resumen, Pathfinder es más que un juego; Es una puerta de entrada a mundos de fantasía donde la imaginación no conoce límites. Es una invitación a contar historias colectivas donde cada elección tiene peso y cada momento puede convertirse en un recuerdo duradero. Ya seas un estratega meticuloso o un narrador apasionado, Pathfinder ofrece una experiencia rica y gratificante que se desarrolla de maneras tan únicas como los jugadores que se unen para jugar.",
+        "bg": "/img/bg/Forest1.webp",
+        "card": {
+          "desc": "La historia de valientes héroes y astutos villanos en un mundo lleno de monstruos terribles y tesoros maravillosos.",
+          "title": "Pathfinder"
+        },
+        "icon": "/img/rpg/Pathfinder.svg",
+        "legal": "Pathfinder está siendo publicado actualmente por [NEWORDER](https://newordereditora.com/) que tiene todos sus derechos reservados.Los libros del sistema fueron publicados bajo la licencia[OPEN GAME LICENSE Versión](https://en.wikipedia.org/wiki/Open_Game_License) 1.0a Mini Kraken no tiene ningún vínculo con la editorial o el creador, Mini Kraken es solo un conjunto de herramientas hechas para ayudar a masters y jugadores de diferentes sistemas. de la misma manera que no tenemos su autorización para operar.",
+        "path": "pathfinder",
+        "tags": "Sistema RPG, Fantasía"
+      },
+      "7": {
+        "article": "Hechiceros y Maldiciones ofrece una experiencia inmersiva que captura la esencia del anime Jujutsu Kaisen, permitiendo a los jugadores sumergirse en un mundo donde los hechiceros combaten maldiciones con habilidades sobrenaturales. A través de un sistema de clasificación detallado, los jugadores pueden desarrollar sus personajes desde novatos de rango 4 hasta poderosos hechiceros de rango especial. Con mecánicas como la multiclase y equipo variado, el juego fomenta la personalización y la estrategia. Además, elementos únicos como la Integridad y los Votos de Límite añaden profundidad y desafío, invitando a los jugadores a tomar decisiones significativas que dan forma a sus viajes. Para los entusiastas de los RPG que buscan una aventura llena de magia y misterio, \"Hechiceros y Maldiciones\" es una puerta de entrada para los fanáticos del anime que quieren empezar a jugar juegos de rol.",
+        "bg": "/img/bg/Forest4.webp",
+        "card": {
+          "desc": "El sistema adapta el mundo del anime, con batallas sobrenaturales. En él, los jugadores pueden explorar múltiples estilos de lucha y rituales.",
+          "title": "Feiticeiros e Maldições"
+        },
+        "icon": "/img/rpg/Feiticeiros.svg",
+        "legal": "Feiticeiros e Maldições es un sistema de RPG de código abierto hecho por el autor [Setsugiri](https://setsugiri.carrd.co/) usando la[OPEN GAME LICENSE Versión](https://en.wikipedia.org/wiki/Open_Game_License) 1.0a Mini Kraken tiene el permiso del creador del sistema para operar.Los libros del sistema se pueden descargar desde el servidor [Discord Oficial] (https://discord.com/invite/UGg6QUNNRp)",
+        "path": "feiticeiros",
+        "tags": "Sistema RPG,Anime,Magia"
+      },
+      "8": {
+        "article": "Dharmar es un sistema de rol brasileño de licencia abierta que busca proporcionar sesiones divertidas y realistas para absolutamente cualquier escenario. El sistema se basa en un sistema de lanzamiento de dados simple e intuitivo que permite a los jugadores y MJ centrarse en la narrativa y la interpretación de roles. Dharmar es un sistema flexible y adaptable que se puede personalizar fácilmente para satisfacer las necesidades de diferentes grupos de jugadores y estilos de juego. Con reglas claras y concisas, Dharmar es una excelente opción para principiantes y jugadores veteranos que buscan una experiencia de rol atractiva y dinámica. Si buscas un sistema de rol accesible, divertido y versátil, Dharmar es la elección perfecta para ti. ¡Reúne a tus amigos, crea tus personajes y embárcate en una aventura épica con Dharmar!\n",
+        "bg": "/img/bg/Forest7.webp",
+        "card": {
+          "desc": "El Sistema Dharma es un sistema de RPG brasileño de licencia abierta, creado con el objetivo de proporcionar sesiones divertidas, simples y realistas para absolutamente cualquier escenario de RPG.\n",
+          "title": "Dharmar"
+        },
+        "icon": "/img/rpg/Dharmar.svg",
+        "legal": "Dharmar es un sistema de juego de rol de código abierto creado por el autor [Bruno More Eyes](https://www.instagram.com/brunomoreeyes/). Mini Kraken no tiene conexión con el creador; Mini Kraken es solo un conjunto de herramientas creadas para ayudar a maestros y jugadores de diferentes sistemas, de la misma manera que no tenemos autorización de ellos para operar. Compra: [Dharmar en Amazon](https://amzn.to/4a3olxF)\n",
+        "path": "dharmar",
+        "tags": "Sistema RPG, Código Abierto, Brasil\n"
+      },
+      "9": {
+        "bg": "/img/bg/nbg1.webp",
+        "card": {
+          "desc": "RPG clásico brasileño que recupera la esencia de los juegos de mesa \"old school\", con reglas sencillas, un rico escenario\n",
+          "title": "Old Dragon 2e"
+        },
+        "icon": "/img/rpg/OldDragon.svg",
+        "legal": "Old Dragon es un sistema de RPG creado por el autor [Dei Priori](https://olddragon.com.br/) Mini Kraken no tiene una conexión directa con el creador, pero tenemos el consentimiento de la editorial para añadir el sistema a la herramienta.\n",
+        "md": "# Old Dragon 2ª Edición: Revitalizando el RPG Clásico con Herramientas Modernas\n\n## Introducción\n\nEl **Old Dragon 2ª Edición** es una actualización significativa del renombrado RPG brasileño que busca rescatar la esencia de los juegos de mesa clásicos, incorporando mejoras que satisfacen tanto a veteranos como a nuevos jugadores. Con nuevas reglas, escenarios e integraciones digitales, esta edición promete enriquecer la experiencia de juego, manteniendo la nostalgia y la simplicidad que caracterizan al sistema original.\n\n## Contexto General\n\nLanzado inicialmente en 2010, el Old Dragon rápidamente se destacó en el escenario nacional de RPGs por su enfoque \"old school\", inspirado en los primeros sistemas de role-playing. La segunda edición surge después de más de una década de retroalimentación de la comunidad, con el objetivo de mejorar las mecánicas, expandir el universo del juego e integrar herramientas que facilitan la jugabilidad en entornos virtuales.\n\nAdemás, el **Old Dragon 2ª Edición** ahora forma parte de la lista de sistemas de **Mini Kraken**, una plataforma dedicada a RPGs independientes. Esto amplía el acceso al juego y fortalece su presencia en el escenario digital, facilitando la entrada de nuevos jugadores y narradores que buscan experiencias clásicas y accesibles.\n\n## Principales Novedades de la 2ª Edición\n\n- **Revisión de Reglas**: Las mecánicas se han refinado para proporcionar una experiencia más fluida, manteniendo la simplicidad característica del sistema.\n- **Nuevo Escenario – Valansia**: Introducción del continente de Valansia como escenario estándar, ofreciendo un vasto territorio de aproximadamente dos mil hexágonos para la exploración y las aventuras.\n- **Disponibilidad Digital Gratuita**: El Libro Básico y un Fast Play están disponibles gratuitamente en formato digital, democratizando el acceso al juego.\n\n## Integración con Plataformas Virtuales\n\nReconociendo la creciente popularidad de las mesas virtuales, el Old Dragon 2ª Edición se ha integrado con las principales plataformas de RPG online:\n\n### Roll20\n\nLa ficha de personaje específica para Old Dragon 2ª Edición en Roll20 permite:\n\n- **Creación Personalizada**: Desarrolla personajes, magias y objetos de forma intuitiva.\n- **Cálculo Automático de Modificadores**: Agiliza el proceso de creación y evolución de los personajes.\n- **Tiradas de Dados Mejoradas**: Facilita las pruebas de atributos, las tiradas de protección y los ataques.\n\nAunque algunas funcionalidades aún requieren llenado manual, la herramienta ya representa un avance significativo en la gestión de personajes.\n\n### Mini Kraken Bot\n\nEl **Mini Kraken Bot** es una herramienta innovadora que facilita la jugabilidad del Old Dragon 2ª Edición directamente en Discord. Con comandos prácticos y automatizaciones, permite:\n\n- **Creación y Gestión de Personajes**: Registra fichas, evoluciona atributos y sigue tu campaña de manera organizada.\n- **Tiradas de Dados Inteligentes**: Utiliza comandos rápidos para realizar pruebas de atributos, tiradas de protección y ataques, sin necesidad de cálculos manuales.\n- **Registro de Sesiones**: Almacena anotaciones importantes de la campaña, garantizando que ningún detalle se pierda entre las sesiones.\n\nEl bot está disponible gratuitamente y es una excelente opción para quien desea jugar de manera ágil sin depender de plataformas más complejas.\n\n## Consejos para Maximizar tu Experiencia\n\n- **Participa en la Comunidad**: Interactúa en foros y grupos dedicados al Old Dragon para intercambiar experiencias y obtener apoyo.\n- **Explora el Escenario de Valansia**: Aprovecha la riqueza de detalles y posibilidades que el nuevo continente ofrece para crear campañas envolventes.\n- **Utiliza las Herramientas Virtuales**: Familiarízate con las funcionalidades de Roll20 y Mini Kraken Bot para optimizar tus sesiones de juego.\n\n## Conclusión\n\nLa segunda edición del Old Dragon revitaliza el RPG clásico brasileño, combinando tradición e innovación. Seas un jugador experimentado o un novato curioso, esta edición ofrece recursos y herramientas que enriquecen la experiencia de juego. No pierdas la oportunidad de explorar las novedades e integrarte a esta comunidad vibrante. Accede a los materiales gratuitos, experimenta las plataformas virtuales y embarca en nuevas aventuras con el viejo dragón.\n\n**Palabras clave**: Old Dragon 2ª Edición, RPG clásico brasileño, Valansia, Roll20, Mini Kraken, Mini Kraken Bot\n",
+        "path": "olddragon",
+        "tags": "Sistema de RPG, Brasileño, de Fantasía\n"
+      }
+    }
+  },
+  "premium": {
+    "0": {
+      "desc": "Un plan para lobos solitarios que quieren acceder a los recursos solos.",
+      "title": "Guerrero"
+    },
+    "1": {
+      "desc": "¡Uno para todos y todos para uno, con este plan todos en tu servidor se benefician!",
+      "title": "Aventurero"
+    },
+    "2": {
+      "desc": "¡Para los verdaderos amantes de Inanimalia Fortuna!",
+      "title": "Héroe Pulpo"
+    },
+    "feat": {
+      "0": "+5 Ranuras Macro (por personaje)",
+      "1": "+24 Ranuras de Personaje",
+      "2": "Duplica el espacio para notas",
+      "3": "Crea tu propio sistema Homebrew",
+      "4": "Millones de Kraken Coins",
+      "5": "Soporte prioritario",
+      "6": "Funciones Premium",
+      "7": "Una cuenta",
+      "8": "Un Gremio",
+      "9": "Playtests exclusivos",
+      "10": "Posición de Donante (Perfil y Discord)",
+      "11": "Posición de Donante Supremo (Perfil y Discord)",
+      "12": "Para Tres Gremios",
+      "98": "Team Foot Pack y Clube da Una",
+      "99": "Licencia poética para exigir a los Devs"
+    }
+  },
+  "price": {
+    "0": "$3/Mes",
+    "1": "$5/Mes",
+    "2": "$7/Mes"
+  },
+  "privacy": {
+    "desc": "Lee la Política de Privacidad de Mini Kraken. Aprende cómo recopilamos, usamos y protegemos tus datos.",
+    "md": "Este documento explica como Mini Kraken, propiedad de los Desarrolladores, recopila, gestiona y protege sus datos.\n\n## Información Recopilada\n\nAl utilizar la aplicación, recopilamos información suya y del servidor, además de otros datos que usted nos proporciona. Esto incluye, pero no se limita a:\n\n* **Nombres, IDs e imágenes de usuarios y gremios.**\n* **Datos internos de la aplicación**, como el sistema de fichas de rol.\n\nLa única situación en la que se recopila el contenido de los mensajes es en el sistema de tirada de dados sin el uso de comandos slash. **Importante**: Estos contenidos de mensajes no se almacenan, y los desarrolladores no tienen acceso a ellos.\n\nEl procesamiento de estos datos es esencial para el funcionamiento de diversas funcionalidades de la aplicación, como:\n\n* Identificación para guardar información en la base de datos.\n* Configuraciones individuales de la aplicación para cada gremio y usuario.\n* Personalización de la interfaz de la aplicación para una experiencia mejorada.\n\n\n## Sus Derechos\n\nUsted posee los siguientes derechos garantizados en relación con sus datos:\n\n* **Derecho a ser informado:** Saber qué datos se recopilan y cómo se utilizan.\n* **Derecho de rectificación:** Corregir datos incorrectos o incompletos.\n* **Derecho de supresión:** Solicitar la eliminación de sus datos.\n* **Derecho de acceso:** Acceder a los datos que tenemos sobre usted.\n* **Derecho de oposición:** Rechazar el procesamiento de sus datos.\n\nAl utilizar la aplicación, se entiende que usted acepta los términos y los datos recopilados.\n\n## Seguridad de la Información\n\nGarantizamos la seguridad de la información que usted nos proporciona. Se almacena en servidores y computadoras ubicadas en entornos seguros y controlados, protegidos contra accesos, usos y divulgaciones no autorizados. Implementamos medidas de seguridad administrativas, técnicas y físicas para proteger sus datos. Sin embargo, es importante recordar que ninguna transmisión de datos por Internet puede garantizarse como totalmente segura.\n\n## Contacto\n\nSi necesita más información sobre esta Política de Privacidad o desea acceder a sus derechos individuales e información personal, puede:\n\n* Abrir un ticket de soporte en el gremio (use el comando /support).\n* Enviar un correo electrónico a **soporte@arkanus.app**.\n\n## Telemetría\n\nPara mejorar y comercializar nuestros productos/servicios, nos asociamos con **Microsoft Clarity** y **Microsoft Advertising**. Estas herramientas nos permiten capturar cómo usted usa e interactúa con nuestro sitio a través de:\n\n* Métricas de comportamiento.\n* Mapas de calor.\n* Reproducción de sesiones.\n\nLos datos de uso del sitio se recopilan utilizando cookies de primera y tercera parte y otras tecnologías de rastreo. Esto nos ayuda a determinar la popularidad de productos/servicios y la actividad online. Además, utilizamos esta información para la optimización del sitio, seguridad/fraude y publicidad. Para más detalles sobre cómo Microsoft recopila y usa sus datos, consulte la [Declaración de Privacidad de Microsoft](https://www.microsoft.com/privacy/privacystatement).\n",
+    "title": "política de privacidad"
+  },
+  "tarot": {
+    "article": {
+      "desc": "Un generador aleatorio de cartas del Tarot, que de alguna manera puede ayudar a realizar una campaña o un juego.",
+      "title": "Generador de cartas del tarot"
+    },
+    "desc": "Genera cartas de Tarot aleatorias para mejorar tus campañas o juegos de rol. Explora el Generador de Cartas de Tarot de Mini Kraken para obtener inspiración creativa.",
+    "title": "Cartas del tarot"
+  },
+  "tos": {
+    "desc": "Lee los Términos del Servicio de Mini Kraken. Comprende tus derechos y responsabilidades al usar nuestros servicios.",
+    "md": "Nuestro equipo, en adelante referido como \"los desarrolladores\", se dedica al desarrollo de una variedad de proyectos y servicios. Al acceder o utilizar nuestros servicios, usted acepta automáticamente los términos, condiciones y políticas de privacidad aquí presentados.\n\nSi usted es mayor de edad en su jurisdicción, o si tiene entre 13 años y la mayoría de edad y su responsable legal ha revisado y acepta estos Términos, usted está vinculado a ellos. Si no está de acuerdo con alguna parte de estos términos y condiciones, por favor, interrumpa inmediatamente el uso de nuestros servicios.\n\n## **Licencia de Uso**\n\nSalvo indicación expresa en contrario, todos los derechos de propiedad intelectual sobre el contenido publicado en nuestros Servicios nos pertenecen a nosotros y a nuestros licenciantes. Todos los derechos de propiedad intelectual están estrictamente reservados, y nos reservamos el derecho de tomar las medidas legales pertinentes a través de nuestros canales oficiales de comunicación.\n\nUsted no está autorizado a:\n\n* Vender, alquilar o sublicenciar ningún material relacionado con nuestros servicios o sistemas.\n* Redistribuir contenido de nuestros servicios o sistemas sin autorización expresa.\n* Intentar deliberadamente eludir los mecanismos de seguridad de nuestros Servicios de cualquier manera sin autorización previa.\n\nAlgunas áreas de nuestros Servicios permiten la personalización por parte de los usuarios, sin filtrado o revisión previa por nuestra parte antes de la publicación. Los comentarios y personalizaciones reflejan exclusivamente las opiniones de sus respectivos autores. En la medida permitida por la ley aplicable, no nos responsabilizamos legalmente por estos comentarios/personalizaciones o por cualquier daño, riesgo o gasto derivado de su uso, publicación o aparición en nuestros Servicios.\n\nNos reservamos el derecho, sin obligación, de eliminar cualquier comentario o personalización que consideremos inapropiados, ofensivos o que infrinjan estos Términos y Condiciones.\n\nAl usar nuestros Servicios, usted acepta protegernos y defendernos contra todas las reclamaciones, procesos, daños, costes y gastos derivados o relacionados con su uso de los Servicios. Ningún enlace debe insertarse en ningún sitio web que pueda interpretarse como difamatorio, obsceno, criminal o que viole los derechos de terceros.\n\nAl publicar comentarios, personalizaciones u otro contenido en nuestros Servicios, usted declara y garantiza que:\n\n* Tiene el derecho legal de publicar estos contenidos y posee todas las licencias y autorizaciones necesarias para ello.\n* Sus comentarios, personalizaciones u otro contenido no violan ningún derecho de propiedad intelectual de terceros, incluidos los derechos de autor, patentes o marcas registradas.\n* Sus comentarios, personalizaciones u otro contenido no contienen material difamatorio, calumnioso, ofensivo, indecente o ilegal, ni invaden la privacidad de terceros.\n* Sus comentarios, personalizaciones u otro contenido no se utilizarán para solicitar o promover actividades ilícitas.\n\nAl publicar comentarios, personalizaciones u otro contenido en nuestros Servicios, usted nos concede (incluidos los desarrolladores y socios) una licencia irrevocable, no exclusiva, mundial, libre de regalías y sublicenciable para usar, reproducir, adaptar, modificar, publicar, traducir, crear obras derivadas, distribuir, ejecutar y mostrar públicamente dichos contenidos en cualquier formato, medio o tecnología conocida actualmente o desarrollada en el futuro.\n\n## **Reserva de Derechos y Modificaciones**\n\nNos reservamos el derecho, a nuestro exclusivo criterio, de modificar o revisar estos Términos en cualquier momento, y usted acepta comprometerse con dichas modificaciones o revisiones. Cualquier cambio o modificación entrará en vigor una semana después de su publicación en los Servicios, y su uso continuado de los Servicios después de la fecha efectiva constituirá su aceptación y acuerdo con dichos cambios o modificaciones. Si usted impugna cualquier cambio o modificación, su único recurso será interrumpir el uso del servicio.\n\nNos reservamos el derecho de modificar o interrumpir los servicios (o parte de ellos) en cualquier momento, con o sin previo aviso, sin limitación a una violación de los términos.\n\n## **Prohibiciones y Responsabilidades del Usuario**\n\nEn situaciones en que el usuario realice cualquiera de las acciones enumeradas a continuación, puede resultar en un incumplimiento automático de las condiciones de uso, lo que puede generar consecuencias que van desde advertencias hasta la eliminación del acceso a los servicios y la cancelación de la cuenta o el acceso a los servicios, con o sin previo aviso:\n\n* Atribuir un valor real a cualquier economía virtual dentro de nuestros servicios y comercializarlas por dinero o bienes reales.\n* Enviar cualquier contenido inapropiado al soporte o equipos de revisión.\n* Abusar de errores o sistemas con el fin de obtener ventaja o dañar nuestras estructuras.\n* Abusar de los medios de soporte.\n* Intentar eludir algún sistema de los servicios de manera que perjudique el funcionamiento de los servicios u otros usuarios, sin autorización previa del equipo de desarrollo.\n\n## **Responsabilidad por el Contenido**\n\nNo seremos responsables legalmente por ningún contenido que aparezca en nuestros Servicios, ya que es alimentado por la comunidad. En caso de violación de propiedad intelectual o malestar, el usuario puede solicitar una revisión o eliminación de uno o más contenidos, abriendo una solicitud de eliminación a través de nuestro Soporte.\n\nSi encuentra algún enlace o contenido en nuestros Servicios que sea de alguna manera ofensivo o infrinja sus derechos de autor, usted tiene el derecho y la libertad de contactarnos e informarnos del problema en cualquier momento. Consideraremos las solicitudes de eliminación de enlaces y contenido, pero no estamos obligados a eliminar ningún enlace de nuestros servicios ni a responder directamente a su solicitud, excepto en caso de que infrinja sus derechos de autor.\n\nPara cuestiones relacionadas con derechos de autor o eliminación de contenido, por favor, contacte a través de nuestros canales de soporte oficiales.\n",
+    "tags": "Legal,Legal,Condiciones de uso,Legislación",
+    "title": "Condiciones de servicio"
+  },
+  "vtt": {
+    "index": {
+      "desc": "Eleva tus sesiones de RPG de Discord a otro nivel con personalización avanzada de mapas y fichas directamente en Discord. Edita escenarios, ajusta posiciones y adapta el entorno del juego en tiempo real, sin salir de tu servidor. Control total para maestros y jugadores, todo integrado en tu espacio de juego de Discord.",
+      "title": "Personalizar mapas y cuadrículas"
+    }
+  }
+}

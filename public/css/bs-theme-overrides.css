@@ -1,0 +1,332 @@
+/* ========================================
+   GLOBAL OVERFLOW PREVENTION
+   ======================================== */
+
+html, body {
+  overflow-x: hidden !important;
+  max-width: 100vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: #7D01FF;
+  --bs-btn-border-color: #7D01FF;
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #9433FF;
+  --bs-btn-hover-border-color: #8B1FFF;
+  --bs-btn-focus-shadow-rgb: 125,1,255;
+  --bs-btn-active-color: #ffffff;
+  --bs-btn-active-bg: #A54CFF;
+  --bs-btn-active-border-color: #8B1FFF;
+  --bs-btn-disabled-color: #ffffff;
+  --bs-btn-disabled-bg: #7D01FF;
+  --bs-btn-disabled-border-color: #7D01FF;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #F657FF;
+  --bs-btn-border-color: #F657FF;
+  --bs-btn-focus-shadow-rgb: 246,87,255;
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #F657FF;
+  --bs-btn-hover-border-color: #F657FF;
+  --bs-btn-active-color: #ffffff;
+  --bs-btn-active-bg: #7D01FF;
+  --bs-btn-active-border-color: #7D01FF;
+  --bs-btn-disabled-color: #F657FF;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #F657FF;
+}
+
+.btn-secondary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #454545;
+  --bs-btn-border-color: #454545;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #3B3B3B;
+  --bs-btn-hover-border-color: #373737;
+  --bs-btn-focus-shadow-rgb: 227,227,227;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #373737;
+  --bs-btn-active-border-color: #343434;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #454545;
+  --bs-btn-disabled-border-color: #454545;
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: #454545;
+  --bs-btn-border-color: #454545;
+  --bs-btn-focus-shadow-rgb: 69,69,69;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #454545;
+  --bs-btn-hover-border-color: #454545;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #454545;
+  --bs-btn-active-border-color: #454545;
+  --bs-btn-disabled-color: #454545;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #454545;
+}
+
+.btn-success {
+  --bs-btn-color: #000000;
+  --bs-btn-bg: #01ff87;
+  --bs-btn-border-color: #01ff87;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #27FF99;
+  --bs-btn-hover-border-color: #1AFF93;
+  --bs-btn-focus-shadow-rgb: 0,38,20;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #34FF9F;
+  --bs-btn-active-border-color: #1AFF93;
+  --bs-btn-disabled-color: #000000;
+  --bs-btn-disabled-bg: #01ff87;
+  --bs-btn-disabled-border-color: #01ff87;
+}
+
+.btn-outline-success {
+  --bs-btn-color: #01ff87;
+  --bs-btn-border-color: #01ff87;
+  --bs-btn-focus-shadow-rgb: 1,255,135;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #01ff87;
+  --bs-btn-hover-border-color: #01ff87;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #01ff87;
+  --bs-btn-active-border-color: #01ff87;
+  --bs-btn-disabled-color: #01ff87;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #01ff87;
+}
+
+.btn-danger {
+  --bs-btn-color: #000000;
+  --bs-btn-bg: #f80752;
+  --bs-btn-border-color: #f80752;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #F92C6C;
+  --bs-btn-hover-border-color: #F92063;
+  --bs-btn-focus-shadow-rgb: 37,1,12;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #F93975;
+  --bs-btn-active-border-color: #F92063;
+  --bs-btn-disabled-color: #000000;
+  --bs-btn-disabled-bg: #f80752;
+  --bs-btn-disabled-border-color: #f80752;
+}
+
+.btn-outline-danger {
+  --bs-btn-color: #f80752;
+  --bs-btn-border-color: #f80752;
+  --bs-btn-focus-shadow-rgb: 248,7,82;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #f80752;
+  --bs-btn-hover-border-color: #f80752;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #f80752;
+  --bs-btn-active-border-color: #f80752;
+  --bs-btn-disabled-color: #f80752;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #f80752;
+}
+
+.btn-light {
+  --bs-btn-color: #000000;
+  --bs-btn-bg: #ffffff;
+  --bs-btn-border-color: #ffffff;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #D9D9D9;
+  --bs-btn-hover-border-color: #CCCCCC;
+  --bs-btn-focus-shadow-rgb: 38,38,38;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #CCCCCC;
+  --bs-btn-active-border-color: #BFBFBF;
+  --bs-btn-disabled-color: #000000;
+  --bs-btn-disabled-bg: #ffffff;
+  --bs-btn-disabled-border-color: #ffffff;
+}
+
+.btn-outline-light {
+  --bs-btn-color: #ffffff;
+  --bs-btn-border-color: #ffffff;
+  --bs-btn-focus-shadow-rgb: 255,255,255;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #ffffff;
+  --bs-btn-hover-border-color: #ffffff;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #ffffff;
+  --bs-btn-active-border-color: #ffffff;
+  --bs-btn-disabled-color: #ffffff;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #ffffff;
+}
+
+:root {
+  --bs-primary: #F657FF;
+  --bs-primary-rgb: 246,87,255;
+  --bs-primary-text-emphasis: #F99BFF;
+  --bs-primary-bg-subtle: #31013D;
+  --bs-primary-border-subtle: #7D01FF;
+  --bs-secondary: #929292;
+  --bs-secondary-rgb: 146,146,146;
+  --bs-secondary-text-emphasis: #BEBEBE;
+  --bs-secondary-bg-subtle: #1D1D1D;
+  --bs-secondary-border-subtle: #585858;
+  --bs-success: #01ff87;
+  --bs-success-rgb: 1,255,135;
+  --bs-success-text-emphasis: #67FFB7;
+  --bs-success-bg-subtle: #00331B;
+  --bs-success-border-subtle: #019951;
+  --bs-info: #5100ff;
+  --bs-info-rgb: 81,0,255;
+  --bs-info-text-emphasis: #9766FF;
+  --bs-info-bg-subtle: #100033;
+  --bs-info-border-subtle: #310099;
+  --bs-danger: #f80752;
+  --bs-danger-rgb: 248,7,82;
+  --bs-danger-text-emphasis: #FB6A97;
+  --bs-danger-bg-subtle: #320110;
+  --bs-danger-border-subtle: #950431;
+  --bs-dark: #0b0910;
+  --bs-dark-rgb: 11,9,16;
+  --bs-dark-text-emphasis: #6D6B70;
+  --bs-dark-bg-subtle: #020203;
+  --bs-dark-border-subtle: #07050A;
+  --bs-body-bg: #0b0910;
+  --bs-body-bg-rgb: 11,9,16;
+  --bs-body-font-family: "PT Sans",sans-serif;
+  --bs-link-color: #F657FF;
+  --bs-link-color-rgb: 246, 87, 255;
+  --bs-link-hover-color: #7D01FF;
+}
+
+/* Estilos para dropdown menus */
+.dropdown-menu {
+  background: rgba(11, 9, 16, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(246, 87, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(246, 87, 255, 0.2);
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background: linear-gradient(90deg, rgba(246, 87, 255, 0.1), rgba(125, 1, 255, 0.1));
+  color: #F657FF;
+}
+
+/* Ícones do nav */
+.nav_icon_background {
+  background: rgba(246, 87, 255, 0.08);
+  transition: all 0.3s ease;
+}
+
+.dropdown-item:hover .nav_icon_background {
+  background: rgba(246, 87, 255, 0.15);
+  transform: scale(1.05);
+}
+
+/* Nav links hover */
+.nav-link:hover {
+  color: #F657FF !important;
+}
+
+/* Badge primary */
+.badge.bg-primary {
+  background: linear-gradient(135deg, #F657FF, #7D01FF) !important;
+}
+
+
+/* Estilo aprimorado para o cabeçalho da tabela */
+.table-enhanced thead {
+  background: linear-gradient(135deg, #7D01FF, #F657FF);
+}
+
+.table-enhanced thead th {
+  border: none;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+  padding: 1rem 1.5rem; /* Garante consistência no padding */
+  vertical-align: middle;
+}
+
+/* Estilo para o corpo da tabela */
+.table-enhanced tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+.table-enhanced tbody td {
+  padding: 1rem 1.5rem;
+  color: #dee2e6;
+  vertical-align: middle;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Container responsivo para a tabela */
+.table-responsive-enhanced {
+  display: block;
+  width: 100%;
+  overflow-x: auto; /* Ponto chave para a responsividade */
+  -webkit-overflow-scrolling: touch; /* Melhora a experiência de rolagem em iOS */
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Garante que a tabela use o espaço necessário */
+.table-enhanced {
+  width: 100%;
+  min-width: 600px; /* Ajuste este valor conforme o conteúdo mínimo da sua tabela */
+  border-collapse: collapse; /* Melhora a aparência das bordas */
+}
+
+/* Quebra de palavras para evitar estouro de conteúdo nas células */
+.table-enhanced td,
+.table-enhanced th {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Animação para a aparição da tabela */
+@keyframes tableSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.table-enhanced {
+  animation: tableSlideIn 0.5s ease-out;
+}
+
+/* Estilização de elementos extras, como badges */
+.table-enhanced .badge {
+  font-size: 0.75rem;
+  padding: 0.4rem 0.8rem;
+}
+
+/* Estilização da barra de rolagem (opcional, para navegadores WebKit) */
+.table-responsive-enhanced::-webkit-scrollbar {
+  height: 8px;
+}
+
+
+.table-responsive-enhanced::-webkit-scrollbar-thumb {
+  background: #F657FF;
+  border-radius: 4px;
+}
+
+.table-responsive-enhanced::-webkit-scrollbar-thumb:hover {
+  background: #7D01FF;
+}
+

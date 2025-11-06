@@ -1,0 +1,62 @@
+---
+import { extrairRotaSemIdioma } from '@lib/routes';
+import { getLanguages } from '@lib/i18n';
+import siteConfig from '../config.json';
+
+interface Props {
+  title: string;
+  desc?: string;
+  pictureURL?: string;
+}
+
+const { title, desc, pictureURL } = Astro.props as Props;
+const Newroute = Astro.url.pathname;
+const languages = getLanguages();
+let rotaRoot = extrairRotaSemIdioma(Newroute);
+const description = desc ?? '';
+const image = pictureURL ?? '/img/banners/default.webp';
+const url = siteConfig.url;
+const alternates = languages
+  .map((lang) => {
+    const langPath = lang === 'x-default' || lang === 'en' ? '' : `/${lang}`;
+    rotaRoot = rotaRoot.replace('index', '');
+    return `<link rel="alternate" hreflang="${lang}" href="${url}${langPath}${rotaRoot}">`;
+  })
+  .join('\n');
+const canonicalLink = Newroute.includes('en/') ? `<link rel="canonical" href="${url}${rotaRoot.replace('index','')}">` : '';
+---
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <title>{title} | DeadPixel</title>
+  <meta name="description" content={description} />
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/bs-theme-overrides.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <meta name="theme-color" content="#F657FF" />
+  <!-- Instrução para Cloudflare não usar Rocket Loader -->
+  <meta http-equiv="x-dns-prefetch-control" content="on" />
+  <link rel="dns-prefetch" href="https://studiosdeadpixel.com" />
+  <link rel="preconnect" href="https://studiosdeadpixel.com" crossorigin />
+  <link rel="icon" type="image/svg+xml" href="/logoDP.svg" />
+  <link rel="icon" type="image/png" sizes="512x512" href="/logoDP.svg" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/logoDP.svg" />
+  <link rel="icon" type="image/png" sizes="180x180" href="/logoDP.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/logoDP.svg" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/logoDP.svg" />
+  <Fragment set:html={canonicalLink} />
+  <Fragment set:html={alternates} />
+  <Fragment set:html={`<link rel="alternate" hreflang="x-default" href="${url}${rotaRoot}" />`} />
+  <meta property="og:url" content={`${url}${rotaRoot}`} />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@DeadpixelStudio" />
+  <meta name="twitter:creator" content="@DeadpixelStudio" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta name="twitter:image" content={image} />
+  <meta property="og:image" content={image} />
+</head>
+

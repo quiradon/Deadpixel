@@ -1,0 +1,7 @@
+node_modules
+export
+.wrangler
+/dist
+.vscode
+/.vscode
+src/astro_tmp_pages_*/

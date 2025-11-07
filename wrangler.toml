@@ -5,6 +5,3 @@ pages_build_output_dir = "dist"
 
 [dev]
 port = 3000
-
-[build]
-command = "bun install && bun run build"

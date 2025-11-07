@@ -28,7 +28,6 @@
     "p-limit": "^6.2.0"
   },
   "devDependencies": {
-
     "autoprefixer": "^10.4.21",
     "cssnano": "^7.1.2",
     "rimraf": "^5.0.10",

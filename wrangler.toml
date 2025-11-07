@@ -1,7 +1,10 @@
 name = "fortuna_website"
 compatibility_date = "2025-02-11"
+
+pages_build_output_dir = "dist"
+
 [dev]
 port = 3000
 
 [build]
-command = "bun run build"
+command = "bun install && bun run build"

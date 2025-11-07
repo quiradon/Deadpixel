@@ -1,8 +1,7 @@
 {
-    "url" : "http://localhost:4321",
+    "url" : "https://studiosdeadpixel.com",
     "discord_invite" : "https://discord.com/invite/Nm3CypkQaq",
-    "bot_invite" : "https://discord.com/oauth2/authorize?client_id=899421595125288961",
-    "instagram_url" : "https://www.instagram.com/minikreken/",
-    "twitter_url" : "https://twitter.com/MiniKraken",
-    "youtube_url" : "https://www.youtube.com/@MiniKraken"
+    "instagram_url" : "https://www.instagram.com/deadpixel_studios",
+    "twitter_url" : "https://x.com/Machick_",
+    "youtube_url" : "https://www.youtube.com/@studiosdeadpixel"
 }

@@ -4,6 +4,18 @@
     "desc": "Ops! Parece que você encontrou uma página que não existe mais. Não se preocupe, às vezes isso acontece durante a navegação. Enquanto isso, explore outras partes do nosso site para encontrar o que procura.",
     "title": "Página Não Encontrada"
   },
+  "about": {
+    "0": "Somos um estúdio independente de desenvolvimento de jogos, apaixonados por criar experiências únicas e memoráveis. Nossa jornada começou em 2020 com o objetivo de trazer jogos inovadores que combinam narrativas envolventes, mecânicas criativas e arte impressionante.",
+    "1": "No DeadPixel Studio, acreditamos que cada pixel conta uma história. Nossa missão é desenvolver jogos que não apenas entretenham, mas que também inspirem e conectem jogadores ao redor do mundo. Com uma equipe talentosa e dedicada, transformamos ideias em realidades digitais.",
+    "2": "Anos de Experiência",
+    "3": "Projetos Concluídos",
+    "4": "Nossa Equipe",
+    "5": "Conheça as pessoas talentosas que tornam tudo isso possível.",
+    "6": "Nossa Visão",
+    "7": "Acreditamos que os jogos são mais do que entretenimento - são uma forma de arte que pode tocar corações, desafiar mentes e criar conexões genuínas entre pessoas.",
+    "8": "Nossa visão é criar um portfólio de jogos que não apenas sejam divertidos, mas que também deixem uma marca duradoura na indústria. Queremos ser conhecidos pela qualidade, inovação e pela paixão que colocamos em cada projeto. Seja você um jogador casual ou hardcore, nosso objetivo é proporcionar experiências que você lembrará por anos.",
+    "9": "Estamos comprometidos com a comunidade de jogadores, ouvindo feedback, evoluindo constantemente e sempre buscando superar expectativas. No DeadPixel Studio, cada jogo é uma nova oportunidade de criar algo extraordinário."
+  },
   "changelogs": {
     "desc": "Descubra todas as últimas atualizações e melhorias em nosso projeto através da nossa página de changelogs. Mantenha-se informado sobre cada nova versão, correção de bugs e recursos adicionados."
   },
@@ -12,10 +24,10 @@
   },
   "footer": {
     "about": "Sobre",
-    "games": "Jogos",
     "arkanus": {
       "desc": "Transformando seus sonhos em realidade com várias linhas de codigo."
     },
+    "games": "Jogos",
     "legal": "Legal",
     "map": "Mapa do Site",
     "priv": "Politica de Privacidade",
@@ -95,6 +107,14 @@
   },
   "join_server_btn": "Entrar no servidor",
   "lang": "pt",
+  "machick": {
+    "1": "A galinha mágica contra os sapos do mal",
+    "2": "O retorno da galinha mágica",
+    "3": "Uma aventura mágica estrelando Machick, uma galinha com poderes especiais que precisa salvar seu galinheiro dos sapos malignos!",
+    "4": "O pacífico galinheiro foi invadido por sapos do mal que querem dominar todas as aves. Machick, uma galinha com habilidades mágicas únicas, é a única esperança! Use feitiços poderosos, explore diferentes ambientes e enfrente horríveis sapos em batalhas épicas. Com mecânicas de magia inovadoras e combate dinâmico, Machick 1 oferece uma experiência única e divertida.",
+    "5": "Machick retorna mais poderosa! A ameaça dos sapos do mal ressurge e agora eles trouxeram aliados ainda mais perigosos.",
+    "6": "Anos de paz se passaram desde a vitória de Machick, mas os sapos malignos retornam com forças redobradas e novos aliados sombrios.\nNossa heroína precisa reunir novas habilidades mágicas e formar uma equipe de aves guerreiras para defender o reino.\nMachick 2 expande tudo que tornou o original especial, adicionando modo cooperativo e novas mecânicas de combate."
+  },
   "misc": {
     "btn": {
       "gencard": "Gerar Carta"
@@ -146,6 +166,8 @@
     }
   },
   "new": "Novo",
+  "nossos": "Nossos Jogos",
+  "nossos_desc": "Conheça os nossos projetos",
   "poker": {
     "article": {
       "desc": "Um Gerador de cartas de baralho aleatórias, que pode de alguma de alguma forma ajudar a fazer alguma campanha ou jogo.",
@@ -343,10 +365,17 @@
     "tags": "Legal,Juridico,Termos de Uso,Legislação",
     "title": "Termos de Serviço"
   },
+  "view_steam": "Ver na Steam",
   "vtt": {
     "index": {
       "desc": "Eleve suas sessões de RPG no Discord para outro nível com personalização avançada de mapas e tokens diretamente no Discord. Edite cenários, ajuste posições e adapte o ambiente de jogo em tempo real, sem sair do seu servidor. Controle total para mestres e jogadores, tudo integrado ao seu espaço de jogo no Discord.",
       "title": "Personalize mapas e tokens no VTT"
     }
+  },
+  "view_games": "Ver Nossos Jogos",
+  "bees": {
+    "0": "Um tower defense frenético onde você comanda um exército de abelhas contra hordas de zumbis insetos!",
+    "1": "A colmeia está sob ataque! Recrute diferentes tipos de abelhas guerreiras, cada uma com habilidades únicas,\n            e construa defesas estratégicas para proteger a rainha. Com sua mecânica addictiva e visual colorido,\n            Bees vs Zombees oferece diversão para todas as idades.",
+    "2": "Defenda a colmeia!"
   }
 }

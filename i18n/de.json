@@ -4,6 +4,18 @@
     "desc": "Hoppla! Es sieht so aus, als hätten Sie eine Seite gefunden, die nicht mehr existiert. Keine Sorge, das passiert beim Browsen manchmal. In der Zwischenzeit können Sie andere Bereiche unserer Website erkunden, um das zu finden, wonach Sie suchen.",
     "title": "Seite nicht gefunden"
   },
+  "about": {
+    "0": "Wir sind ein unabhängiges Spielentwicklungsstudio, leidenschaftlich daran, einzigartige und unvergessliche Erlebnisse zu schaffen. Unsere Reise begann im Jahr 2020 mit dem Ziel, innovative Spiele zu entwickeln, die fesselnde Erzählungen, kreative Mechaniken und beeindruckende Kunst vereinen.",
+    "1": "Bei DeadPixel Studio glauben wir, dass jedes Pixel eine Geschichte erzählt. Unsere Mission ist es, Spiele zu entwickeln, die nicht nur unterhalten, sondern auch Spieler weltweit inspirieren und verbinden. Mit einem talentierten und engagierten Team verwandeln wir Ideen in digitale Realitäten.",
+    "2": "Jahre Erfahrung",
+    "3": "Abgeschlossene Projekte",
+    "4": "Unser Team",
+    "5": "Lernen Sie die talentierten Menschen kennen, die all dies ermöglichen.",
+    "6": "Unsere Vision",
+    "7": "Wir glauben, dass Spiele mehr als nur Unterhaltung sind – sie sind eine Kunstform, die Herzen berühren, den Geist herausfordern und echte Verbindungen zwischen Menschen schaffen kann.",
+    "8": "Unsere Vision ist es, ein Portfolio von Spielen zu schaffen, die nicht nur unterhaltsam sind, sondern auch einen bleibenden Eindruck in der Branche hinterlassen. Wir möchten für die Qualität, Innovation und Leidenschaft bekannt sein, die wir in jedes Projekt stecken. Egal, ob Sie ein Gelegenheitsspieler oder ein Hardcore-Gamer sind, unser Ziel ist es, Erlebnisse zu bieten, an die Sie sich jahrelang erinnern werden.",
+    "9": "Wir sind der Spieler-Community verpflichtet, hören auf Feedback, entwickeln uns ständig weiter und sind immer bestrebt, Erwartungen zu übertreffen. Bei DeadPixel Studio ist jedes Spiel eine neue Gelegenheit, etwas Außergewöhnliches zu schaffen."
+  },
   "changelogs": {
     "desc": "Entdecken Sie alle neuesten Updates und Verbesserungen unseres Projekts über unsere Changelog-Seite. Bleiben Sie über jede neue Version, Fehlerbehebungen und hinzugefügte Funktionen informiert."
   },
@@ -11,12 +23,11 @@
     "desc": "Mini Kraken ist eine RPG-Website, die Tools, Artikel und Inhalte für RPG-Spieler und Spielleiter bietet. Hier finden Sie Informationen zu Dungeons and Dragons, Call of Cthulhu, GURPS, FATE, Storytelling und anderen RPG-Systemen."
   },
   "footer": {
-    "start": "Startseite",
-    "games": "Spiele",
     "about": "Über",
     "arkanus": {
       "desc": "Ihre Träume mit einigen Zeilen Code in die Realität umsetzen."
     },
+    "games": "Spiele",
     "legal": "Rechtliches",
     "map": "Sitemap",
     "priv": "Datenschutz",
@@ -96,6 +107,14 @@
   },
   "join_server_btn": "Offizielle Gilde beitreten",
   "lang": "de",
+  "machick": {
+    "1": "Die magische Henne gegen die bösen Frösche",
+    "2": "Die Rückkehr des magischen Huhns",
+    "3": "Ein magisches Abenteuer mit Machick, einem Huhn mit besonderen Kräften, das seinen Hühnerstall vor den bösen Fröschen retten muss!",
+    "4": "Der friedliche Hühnerstall wurde von bösen Fröschen überfallen, die alle Vögel dominieren wollen. Machick, ein Huhn mit einzigartigen magischen Fähigkeiten, ist die einzige Hoffnung! Setze mächtige Zaubersprüche ein, erkunde verschiedene Umgebungen und stelle dich schrecklichen Fröschen in epischen Schlachten. Mit innovativen Magiemechaniken und dynamischem Kampf bietet Machick 1 ein einzigartiges und unterhaltsames Erlebnis.",
+    "5": "Machick kehrt mächtiger zurück! Die Bedrohung durch die bösen Frösche taucht wieder auf und jetzt haben sie noch gefährlichere Verbündete mitgebracht.",
+    "6": "Jahre des Friedens sind seit Machicks Sieg vergangen, doch die bösen Frösche kehren mit verdoppelter Stärke und neuen dunklen Verbündeten zurück.\nUnsere Heldin muss neue magische Fähigkeiten sammeln und ein Team von Kriegervögeln zusammenstellen, um das Königreich zu verteidigen.\nMachick 2 erweitert alles, was das Original besonders machte, und fügt einen Koop-Modus und neue Kampfmechaniken hinzu."
+  },
   "misc": {
     "btn": {
       "gencard": "Karte generieren"
@@ -147,6 +166,8 @@
     }
   },
   "new": "Neu",
+  "nossos": "Unsere Spiele",
+  "nossos_desc": "Entdecken Sie unsere Projekte",
   "poker": {
     "article": {
       "desc": "Ein Zufallsgenerator für Spielkarten, der irgendwie bei der Erstellung einer Kampagne oder eines Spiels helfen kann.",
@@ -344,10 +365,17 @@
     "tags": "Rechtlich,Rechtlich,Nutzungsbedingungen,Gesetzgebung",
     "title": "Nutzungsbedingungen"
   },
+  "view_steam": "Auf Steam ansehen",
   "vtt": {
     "index": {
       "desc": "Hebe deine Discord-Rollenspiel-Sitzungen auf ein neues Level mit erweiterter Karten- und Token-Anpassung direkt in Discord. Bearbeite Szenarien, passe Positionen an und passe die Spielumgebung in Echtzeit an, alles ohne deinen Server zu verlassen. Volle Kontrolle für Spielleiter und Spieler, alles integriert in deinen Discord-Spielbereich.",
       "title": "Karten und Raster anpassen"
     }
+  },
+  "view_games": "Unsere Spiele Ansehen",
+  "bees": {
+    "0": "Ein rasantes Tower Defense-Spiel, in dem du eine Armee von Bienen gegen Horden von Zombie-Insekten befehligst!",
+    "1": "Der Bienenstock wird angegriffen! Rekrutiere verschiedene Arten von Kriegerbienen, jede mit einzigartigen Fähigkeiten,\n            und baue strategische Verteidigungen, um die Königin zu schützen. Mit seiner fesselnden Mechanik und farbenfrohen Grafik,\n            bietet Bees vs Zombees Spaß für alle Altersgruppen.",
+    "2": "Verteidige den Bienenstock!"
   }
 }

@@ -4,6 +4,18 @@
     "desc": "¡Ups! Parece que has encontrado una página que ya no existe. No te preocupes, a veces esto sucede mientras navegas. Mientras tanto, explora otras partes de nuestro sitio para encontrar lo que buscas.",
     "title": "Página no encontrada"
   },
+  "about": {
+    "0": "Somos un estudio independiente de desarrollo de videojuegos, apasionados por crear experiencias únicas y memorables. Nuestra trayectoria comenzó en 2020 con el objetivo de traer juegos innovadores que combinan narrativas envolventes, mecánicas creativas y arte impresionante.",
+    "1": "En DeadPixel Studio, creemos que cada píxel cuenta una historia. Nuestra misión es desarrollar juegos que no solo entretengan, sino que también inspiren y conecten a jugadores de todo el mundo. Con un equipo talentoso y dedicado, transformamos ideas en realidades digitales.",
+    "2": "Años de Experiencia",
+    "3": "Proyectos Completados",
+    "4": "Nuestro Equipo",
+    "5": "Conoce a las personas talentosas que hacen todo esto posible.",
+    "6": "Nuestra Visión",
+    "7": "Creemos que los juegos son más que entretenimiento; son una forma de arte que puede tocar corazones, desafiar mentes y crear conexiones genuinas entre personas.",
+    "8": "Nuestra visión es crear un portafolio de juegos que no solo sean divertidos, sino que también dejen una marca duradera en la industria. Queremos ser conocidos por la calidad, la innovación y la pasión que ponemos en cada proyecto. Ya seas un jugador casual o hardcore, nuestro objetivo es proporcionar experiencias que recordarás durante años.",
+    "9": "Estamos comprometidos con la comunidad de jugadores, escuchando comentarios, evolucionando constantemente y siempre buscando superar expectativas. En DeadPixel Studio, cada juego es una nueva oportunidad para crear algo extraordinario."
+  },
   "changelogs": {
     "desc": "Descubre todas las últimas actualizaciones y mejoras de nuestro proyecto a través de nuestra página de registro de cambios. Mantente informado sobre cada nueva versión, correcciones de errores y características añadidas."
   },
@@ -11,12 +23,11 @@
     "desc": "Mini Kraken es un sitio web de RPG que ofrece herramientas, artículos y contenido para jugadores y DMs de RPG. Aquí encontrarás información sobre Dungeons and Dragons, Call of Cthulhu, GURPS, FATE, Storytelling y otros sistemas de RPG."
   },
   "footer": {
-    "start": "Inicio",
-    "games": "Juegos",
     "about": "Acerca de",
     "arkanus": {
       "desc": "Convirtiendo tus sueños en realidad con varias líneas de código."
     },
+    "games": "Juegos",
     "legal": "Legal",
     "map": "Mapa del sitio",
     "priv": "Política de privacidad",
@@ -96,6 +107,14 @@
   },
   "join_server_btn": "Unirse al gremio oficial",
   "lang": "es",
+  "machick": {
+    "1": "La gallina mágica contra los sapos malvados",
+    "2": "El retorno de la gallina mágica",
+    "3": "¡Una aventura mágica protagonizada por Machick, una gallina con poderes especiales que necesita salvar su gallinero de las ranas malvadas!",
+    "4": "El pacífico gallinero ha sido invadido por ranas malvadas que quieren dominar a todas las aves. ¡Machick, una gallina con habilidades mágicas únicas, es la única esperanza! Usa hechizos poderosos, explora diferentes entornos y enfréntate a ranas horribles en batallas épicas. Con mecánicas de magia innovadoras y combate dinámico, Machick 1 ofrece una experiencia única y divertida.",
+    "5": "¡Machick regresa más poderosa! La amenaza de los sapos malvados resurge y ahora han traído aliados aún más peligrosos.",
+    "6": "Años de paz han pasado desde la victoria de Machick, pero las malvadas ranas regresan con fuerzas redobladas y nuevos aliados oscuros.\nNuestra heroína necesita reunir nuevas habilidades mágicas y formar un equipo de aves guerreras para defender el reino.\nMachick 2 expande todo lo que hizo especial al original, añadiendo modo cooperativo y nuevas mecánicas de combate."
+  },
   "misc": {
     "btn": {
       "gencard": "Generar tarjeta"
@@ -147,6 +166,8 @@
     }
   },
   "new": "Nuevo",
+  "nossos": "Nuestros Juegos",
+  "nossos_desc": "Conoce nuestros proyectos",
   "poker": {
     "article": {
       "desc": "Un generador de cartas de juego aleatorio, que de alguna manera puede ayudar a crear una campaña o juego.",
@@ -344,10 +365,17 @@
     "tags": "Legal,Legal,Condiciones de uso,Legislación",
     "title": "Condiciones de servicio"
   },
+  "view_steam": "Ver en Steam",
   "vtt": {
     "index": {
       "desc": "Eleva tus sesiones de RPG de Discord a otro nivel con personalización avanzada de mapas y fichas directamente en Discord. Edita escenarios, ajusta posiciones y adapta el entorno del juego en tiempo real, sin salir de tu servidor. Control total para maestros y jugadores, todo integrado en tu espacio de juego de Discord.",
       "title": "Personalizar mapas y cuadrículas"
     }
+  },
+  "view_games": "Ver Nuestros Juegos",
+  "bees": {
+    "0": "¡Un tower defense frenético donde comandas un ejército de abejas contra hordas de insectos zombis!",
+    "1": "¡La colmena está bajo ataque! Recluta diferentes tipos de abejas guerreras, cada una con habilidades únicas,\n            y construye defensas estratégicas para proteger a la reina. Con su mecánica adictiva y gráficos coloridos,\n            Bees vs Zombees ofrece diversión para todas las edades.",
+    "2": "¡Defiende la colmena!"
   }
 }

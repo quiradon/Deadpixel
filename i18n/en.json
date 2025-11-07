@@ -4,6 +4,18 @@
     "desc": "Oops! It looks like you found a page that no longer exists. Don't worry, sometimes this happens while browsing. In the meantime, explore other parts of our site to find what you're looking for.",
     "title": "Page not Found"
   },
+  "about": {
+    "0": "We are an independent game development studio, passionate about creating unique and memorable experiences. Our journey began in 2020 with the goal of bringing innovative games that combine engaging narratives, creative mechanics, and stunning art.",
+    "1": "At DeadPixel Studio, we believe every pixel tells a story. Our mission is to develop games that not only entertain, but also inspire and connect players worldwide. With a talented and dedicated team, we transform ideas into digital realities.",
+    "2": "Years of Experience",
+    "3": "Completed Projects",
+    "4": "Our Team",
+    "5": "Meet the talented people who make all of this possible.",
+    "6": "Our Vision",
+    "7": "We believe that games are more than entertainment – they are an art form that can touch hearts, challenge minds, and create genuine connections between people.",
+    "8": "Our vision is to create a portfolio of games that are not only fun but also leave a lasting mark on the industry. We want to be known for the quality, innovation, and passion we put into every project. Whether you're a casual or hardcore gamer, our goal is to provide experiences you'll remember for years.",
+    "9": "We are committed to the gaming community, listening to feedback, constantly evolving, and always striving to exceed expectations. At DeadPixel Studio, every game is a new opportunity to create something extraordinary."
+  },
   "changelogs": {
     "desc": "Discover all the latest updates and improvements to our project via our changelogs page. Stay informed about each new version, bug fixes and added features."
   },
@@ -12,10 +24,10 @@
   },
   "footer": {
     "about": "About",
-    "games": "Games",
     "arkanus": {
       "desc": "Turning your dreams into reality with several lines of code."
     },
+    "games": "Games",
     "legal": "Legal",
     "map": "Site Map",
     "priv": "Privacy Policy",
@@ -95,6 +107,14 @@
   },
   "join_server_btn": "Join Oficial Guild",
   "lang": "en",
+  "machick": {
+    "1": "The magic chicken against the evil frogs",
+    "2": "The return of the magic chicken",
+    "3": "A magical adventure starring Machick, a chicken with special powers who needs to save her coop from the evil frogs!",
+    "4": "The peaceful chicken coop has been invaded by evil frogs who want to dominate all the birds. Machick, a chicken with unique magical abilities, is the only hope! Use powerful spells, explore different environments, and confront horrible frogs in epic battles. With innovative magic mechanics and dynamic combat, Machick 1 offers a unique and fun experience.",
+    "5": "Machick returns more powerful! The threat of the evil frogs resurfaces, and now they have brought even more dangerous allies.",
+    "6": "Years of peace have passed since Machick's victory, but the evil frogs return with redoubled forces and new dark allies.\nOur heroine needs to gather new magical abilities and form a team of warrior birds to defend the kingdom.\nMachick 2 expands on everything that made the original special, adding cooperative mode and new combat mechanics."
+  },
   "misc": {
     "btn": {
       "gencard": "Generate Card"
@@ -146,6 +166,8 @@
     }
   },
   "new": "New",
+  "nossos": "Our Games",
+  "nossos_desc": "Discover our projects",
   "poker": {
     "article": {
       "desc": "A random playing card generator, which can somehow help to create a campaign or game.",
@@ -343,10 +365,17 @@
     "tags": "Legal,Legal,Terms of Use,Legislation",
     "title": "Terms of Service"
   },
+  "view_steam": "View on Steam",
   "vtt": {
     "index": {
       "desc": "Level up your Discord RPG sessions with advanced map and token customization directly within Discord. Edit scenarios, adjust positions, and adapt the game environment in real time, all without leaving your server. Full control for GMs and players, all integrated into your Discord game space.",
       "title": "Customize Maps and Grids"
     }
+  },
+  "view_games": "See Our Games",
+  "bees": {
+    "0": "A frantic tower defense game where you command an army of bees against hordes of zombie insects!",
+    "1": "The beehive is under attack! Recruit different types of warrior bees, each with unique abilities,\n            and build strategic defenses to protect the queen. With its addictive mechanics and colorful visuals,\n            Bees vs Zombees offers fun for all ages.",
+    "2": "Defend the beehive!"
   }
 }

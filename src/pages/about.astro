@@ -1,7 +1,5 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Navbar from '../components/Navbar.astro';
-import Footer from '../components/Footer.astro';
 import { loadT } from '../lib/i18n';
 import { getLocale } from "astro-i18n-aut";
 
@@ -13,44 +11,39 @@ const pageDesc = "Conheça o DeadPixel Studio - Nossa história, missão e a equ
 
 const teamMembers = [
   {
-    name: "João Silva",
-    role: "CEO & Game Director",
-    photo: "/img/team/member1.jpg",
-    social: {
-      instagram: "https://instagram.com/joaosilva",
-      twitter: "https://twitter.com/joaosilva",
-      linkedin: "https://linkedin.com/in/joaosilva"
-    }
+    name: "Douglas Rodrigues",
+    role: "Sound Designer",
+    photo: "/img/about/douglas.webp"
   },
   {
-    name: "Maria Santos",
-    role: "Lead Developer",
-    photo: "/img/team/member2.jpg",
-    social: {
-      instagram: "https://instagram.com/mariasantos",
-      twitter: "https://twitter.com/mariasantos",
-      github: "https://github.com/mariasantos"
-    }
+    name: "Ivy Rantichieri",
+    role: "Digital Artist",
+    photo: "/img/about/eve.webp"
   },
   {
-    name: "Pedro Costa",
-    role: "Art Director",
-    photo: "/img/team/member3.jpg",
-    social: {
-      instagram: "https://instagram.com/pedrocosta",
-      twitter: "https://twitter.com/pedrocosta",
-      behance: "https://behance.net/pedrocosta"
-    }
+    name: "Alan Sol",
+    role: "Tech Artist",
+    photo: "/img/about/sol.webp"
   },
   {
-    name: "Ana Lima",
+    name: "Rogers",
+    role: "Digital Artist",
+    photo: "/img/about/roger.webp"
+  },
+  {
+    name: "João Victor",
+    role: "Lead Programmer",
+    photo: "/img/about/joao.webp"
+  },
+  {
+    name: "Arthur Câmara",
     role: "Game Designer",
-    photo: "/img/team/member4.jpg",
-    social: {
-      instagram: "https://instagram.com/analima",
-      twitter: "https://twitter.com/analima",
-      linkedin: "https://linkedin.com/in/analima"
-    }
+    photo: "/img/about/Arthur.webp"
+  },
+  {
+    name: "Arthur Araújo",
+    role: "Community Manager",
+    photo: "/img/about/araujo.webp"
   }
 ];
 ---
@@ -65,41 +58,33 @@ const teamMembers = [
     <section class="hero-section py-5">
       <div class="container">
         <div class="row align-items-center g-5">
-          <div class="col-lg-6 order-lg-2">
-            <div class="image-wrapper">
+       <div class="col-lg-6 order-lg-2">
+<!--            <div class="image-wrapper">
               <img 
                 src="/img/about/studio.jpg" 
                 alt="DeadPixel Studio" 
                 class="img-fluid rounded-4 shadow-lg"
               />
-            </div>
-          </div>
+            </div> -->
+          </div> 
           <div class="col-lg-6 order-lg-1">
             <h1 class="display-4 fw-bold mb-4 gradient-text">
               {t.footer?.about || "About"} DeadPixel Studio
             </h1>
             <p class="lead mb-4">
-              Somos um estúdio independente de desenvolvimento de jogos, apaixonados por criar experiências únicas e memoráveis. 
-              Nossa jornada começou em 2020 com o objetivo de trazer jogos inovadores que combinam narrativas envolventes, 
-              mecânicas criativas e arte impressionante.
+              {t.about[0]}
             </p>
             <p class="text-secondary mb-4">
-              No DeadPixel Studio, acreditamos que cada pixel conta uma história. Nossa missão é desenvolver jogos que 
-              não apenas entretenham, mas que também inspirem e conectem jogadores ao redor do mundo. Com uma equipe 
-              talentosa e dedicada, transformamos ideias em realidades digitais.
+              {t.about[1]}
             </p>
             <div class="stats-row d-flex gap-4 flex-wrap">
               <div class="stat-item">
                 <h3 class="text-primary mb-0">5+</h3>
-                <p class="text-muted small mb-0">Anos de Experiência</p>
+                <p class="text-muted small mb-0">{t.about[2]}</p>
               </div>
               <div class="stat-item">
                 <h3 class="text-primary mb-0">10+</h3>
-                <p class="text-muted small mb-0">Projetos Concluídos</p>
-              </div>
-              <div class="stat-item">
-                <h3 class="text-primary mb-0">50k+</h3>
-                <p class="text-muted small mb-0">Jogadores Ativos</p>
+                <p class="text-muted small mb-0">{t.about[3]}</p>
               </div>
             </div>
           </div>
@@ -111,15 +96,15 @@ const teamMembers = [
     <section class="team-section py-5">
       <div class="container">
         <div class="text-center mb-5">
-          <h2 class="display-5 fw-bold mb-3 gradient-text">Nosso Time</h2>
+          <h2 class="display-5 fw-bold mb-3 gradient-text">{t.about[4]}</h2>
           <p class="lead text-secondary">
-            Conheça as pessoas talentosas que tornam tudo isso possível
+            {t.about[5]}
           </p>
         </div>
         
         <div class="row g-4">
           {teamMembers.map((member) => (
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-4 col-xl-3">
               <div class="team-card">
                 <div class="team-card-image">
                   <img 
@@ -127,45 +112,6 @@ const teamMembers = [
                     alt={member.name}
                     class="img-fluid"
                   />
-                  <div class="team-card-overlay">
-                    <div class="social-links">
-                      {member.social.instagram && (
-                        <a href={member.social.instagram} target="_blank" rel="noopener" aria-label="Instagram">
-                          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-                          </svg>
-                        </a>
-                      )}
-                      {member.social.twitter && (
-                        <a href={member.social.twitter} target="_blank" rel="noopener" aria-label="Twitter">
-                          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                          </svg>
-                        </a>
-                      )}
-                      {member.social.linkedin && (
-                        <a href={member.social.linkedin} target="_blank" rel="noopener" aria-label="LinkedIn">
-                          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                          </svg>
-                        </a>
-                      )}
-                      {member.social.github && (
-                        <a href={member.social.github} target="_blank" rel="noopener" aria-label="GitHub">
-                          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                          </svg>
-                        </a>
-                      )}
-                      {member.social.behance && (
-                        <a href={member.social.behance} target="_blank" rel="noopener" aria-label="Behance">
-                          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14h-8.027c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988h-6.466v-14.967h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zm-3.466-8.988h3.584c2.508 0 2.906-3-.312-3h-3.272v3zm3.391 3h-3.391v3.016h3.341c3.055 0 2.868-3.016.05-3.016z"/>
-                          </svg>
-                        </a>
-                      )}
-                    </div>
-                  </div>
                 </div>
                 <div class="team-card-content">
                   <h3 class="h5 mb-1">{member.name}</h3>
@@ -184,28 +130,19 @@ const teamMembers = [
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="vision-content text-center">
-              <h2 class="display-5 fw-bold mb-4 gradient-text">Nossa Visão</h2>
+              <h2 class="display-5 fw-bold mb-4 gradient-text">{t.about[6]}</h2>
               <p class="lead mb-4">
-                Acreditamos que os jogos são mais do que entretenimento - são uma forma de arte que pode tocar 
-                corações, desafiar mentes e criar conexões genuínas entre pessoas.
+                {t.about[7]}
               </p>
               <p class="text-secondary mb-4">
-                Nossa visão é criar um portfólio de jogos que não apenas sejam divertidos, mas que também deixem 
-                uma marca duradoura na indústria. Queremos ser conhecidos pela qualidade, inovação e pela paixão 
-                que colocamos em cada projeto. Seja você um jogador casual ou hardcore, nosso objetivo é proporcionar 
-                experiências que você lembrará por anos.
+                {t.about[8]}
               </p>
               <p class="text-secondary mb-5">
-                Estamos comprometidos com a comunidade de jogadores, ouvindo feedback, evoluindo constantemente e 
-                sempre buscando superar expectativas. No DeadPixel Studio, cada jogo é uma nova oportunidade de 
-                criar algo extraordinário.
+                {t.about[9]}
               </p>
               <div class="cta-buttons d-flex gap-3 justify-content-center flex-wrap">
-                <a href="/games/" class="btn btn-primary btn-lg px-5">
-                  Ver Nossos Jogos
-                </a>
-                <a href="/contact/" class="btn btn-outline-primary btn-lg px-5">
-                  Entre em Contato
+                <a href="/#games" class="btn btn-primary btn-lg px-5">
+                  {t.view_games}
                 </a>
               </div>
             </div>
@@ -301,46 +238,7 @@ const teamMembers = [
   }
 
   .team-card:hover .team-card-image img {
-    transform: scale(1.1);
-  }
-
-  .team-card-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(135deg, rgba(125, 1, 255, 0.95), rgba(246, 87, 255, 0.95));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  .team-card:hover .team-card-overlay {
-    opacity: 1;
-  }
-
-  .social-links {
-    display: flex;
-    gap: 1rem;
-  }
-
-  .social-links a {
-    width: 40px;
-    height: 40px;
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    transition: all 0.3s ease;
-  }
-
-  .social-links a:hover {
-    background: white;
-    color: #7D01FF;
-    transform: translateY(-3px);
+    transform: scale(1.05);
   }
 
   .team-card-content {
@@ -389,5 +287,10 @@ const teamMembers = [
     .hero-section .order-lg-1 {
       order: 2;
     }
+  }
+
+  /* Scroll suave */
+  html {
+    scroll-behavior: smooth;
   }
 </style>

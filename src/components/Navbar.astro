@@ -51,7 +51,7 @@ const institutionalLinks: MenuItem[] = [
   {
     title: t.footer?.games || 'Games',
     description: t.footer?.games || 'Games',
-    href: `${lang}/games/`,
+    href: `${lang}/#games`,
     icon: 'Package',
     iconColor: 'text-primary'
   },
@@ -65,9 +65,10 @@ const institutionalLinks: MenuItem[] = [
   {
     title: t.nav?.support || 'Contact',
     description: t.nav?.support || 'Contact',
-    href: `${lang}/contact/`,
+    href: config.discord_invite,
     icon: 'MessageCircle',
-    iconColor: 'text-primary'
+    iconColor: 'text-primary',
+    target: '_blank'
   }
 ];
 

@@ -377,5 +377,10 @@
     "0": "A frantic tower defense game where you command an army of bees against hordes of zombie insects!",
     "1": "The beehive is under attack! Recruit different types of warrior bees, each with unique abilities,\n            and build strategic defenses to protect the queen. With its addictive mechanics and colorful visuals,\n            Bees vs Zombees offers fun for all ages.",
     "2": "Defend the beehive!"
+  },
+  "terraclysm": {
+    "0": "Terraclysm Survivors is a fast-paced action roguelike sidescroller.",
+    "1": "Earth is in peril, jump and attack through treacherous stages packed with enemy hordes while building the ultimate loadout. With up to 8 players online, defeat the invaders and survive in this apocalyptic and chaotic challenge!",
+    "2": "Survive the apocalypse!"
   }
 }

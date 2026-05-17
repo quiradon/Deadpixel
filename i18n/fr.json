@@ -377,5 +377,10 @@
     "0": "Un tower defense frénétique où vous commandez une armée d'abeilles contre des hordes d'insectes zombies !",
     "1": "La ruche est attaquée ! Recrute différents types d'abeilles guerrières, chacune avec des compétences uniques,\n            et construis des défenses stratégiques pour protéger la reine. Avec ses mécanismes addictifs et ses visuels colorés,\n            Bees vs Zombees offre du plaisir pour tous les âges.",
     "2": "Défends la ruche !"
+  },
+  "terraclysm": {
+    "0": "Terraclysm Survivors est un roguelike d'action à défilement horizontal au rythme effréné.",
+    "1": "La Terre est en péril, sautez et attaquez à travers des niveaux dangereux remplis de hordes d'ennemis tout en construisant l'équipement ultime. Avec jusqu'à 8 joueurs en ligne, battez les envahisseurs et survivez à ce défi apocalyptique et chaotique !",
+    "2": "Survivez à l'apocalypse !"
   }
 }
